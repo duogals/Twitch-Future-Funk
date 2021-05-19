@@ -10,7 +10,7 @@ SoonTM
 
 ## Preview
 ### Front Pape
-SoonTM
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_FrontPage.jpg)
 
 ### Channel
 SoonTM
