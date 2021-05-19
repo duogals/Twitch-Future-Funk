@@ -1,5 +1,6 @@
 # Twitch-Future-Funk
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-238b8b.svg)](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css)
+
 Future Funk css style for Twitch.tv.
 
 As of now, it should only work properly with dark mode enabled. 
