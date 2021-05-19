@@ -35,4 +35,4 @@ Install the [Stylus extension](https://add0n.com/stylus.html) to install the Use
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_BrowsePage.jpg)
 
 ### Settings Page
-
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_SettingsPage.png)
