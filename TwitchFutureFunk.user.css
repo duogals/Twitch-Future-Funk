@@ -649,4 +649,10 @@
     .ksgxNG {
           background-color: #0c0026 !important;
     }
+
+    /*Stream interact */
+    .emote-grid-section__header-title 
+    {
+     background-color: #4e1dc500 !important;
+    }
     }
