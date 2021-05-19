@@ -626,4 +626,18 @@
     .CGszq {
           background-color: #1b0a47 !important;
     }
+    /*FrontPage Streamer details in carousel*/
+    .tw-root--theme-dark .carousel-metadata {
+         background: #0c0026 !important;
+    }
+
+    /*Pointless and ugly fadeout that is ontop of the frontpage streamer details in carousel*/
+    .tw-root--theme-dark .carousel-metadata--fadeout {
+         background: none !important;
+    }
+
+    /*Carousel nav buttons*/
+    .tw-root--theme-dark .carousel-player-nav-arrow__container {
+          background-color: #6f00d9 !important;
+    }
     }
