@@ -462,8 +462,8 @@
     
     /*Chat Settings pop-up menu*/
     .ixPmjS {
-         background-color: #04dbff  !important;
-         color: #0c0026  !important;
+         background-color: #0c0026  !important;
+         color: #04dbff  !important;
     }
     
     /*Top header in Chat Settings pop-up menu*/
@@ -639,5 +639,9 @@
     /*Carousel nav buttons*/
     .tw-root--theme-dark .carousel-player-nav-arrow__container {
           background-color: #6f00d9 !important;
+    }
+    /*Bits pop-up menu in chat input window*/
+    .bfieTc{
+          background-color: #0c0026 !important;
     }
     }

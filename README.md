@@ -19,17 +19,20 @@ Install the [Stylus extension](https://add0n.com/stylus.html) to install the Use
 ### Front Pape
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_FrontPage.jpg)
 
-### Channel
-SoonTM
+### Channel Home Page
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Channel_FrontPage.jpg)
 
-### Music Page
-SoonTM
+### Channel Stream Page
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Channel_StreamPage.jpg)
+
+### Game Page
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Game_Page.jpg)
 
 ### BTTV
-SoonTM
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/BTTV_Emote_Menu.png)
 
 ### Browse Page
-SoonTM
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_BrowsePage.jpg)
 
 ### Settings Page
-SoonTM
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_SettingsPage.jpg)
