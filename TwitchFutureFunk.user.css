@@ -598,6 +598,32 @@
     } .kqWtjD {
           background-color: #0c0026 !important;
     }
+    /*Prediction body*/
+    .iXotcI {
+          background-color: #0c0026 !important;
+    }
 
-    
+    /*Predict Aftermath body*/
+    .cUmtlm {
+         background-color: #0c0026 !important;
+    }
+
+    /*Highlight Message body*/
+    .eosQbY {
+          background-color: #0c0026 !important;
+    } .IfYqL {
+          background-color: #0c0026 !important;
+    }
+
+
+    /*Twitch's emote pop-up window*/
+    .tw-root--theme-dark, .emote-grid-section__header-title {
+          background-color: #4e1dc5 !important;
+    } /*Right nav bar inside twitch's emote pop-up window*/
+    .FYQnE {
+          background-color: #0f0528;
+    }
+    .CGszq {
+          background-color: #1b0a47 !important;
+    }
     }
