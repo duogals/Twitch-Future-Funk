@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.0.4
+     @version		     1.0.5
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -653,6 +653,11 @@
     /*Stream interact */
     .emote-grid-section__header-title 
     {
-     background-color: #4e1dc500 !important;
+     background: none !important;
+    }
+    .extensions-dock__layout {
+         background: none !important;
+    } .tw-root--theme-dark, .video-chat__header {
+         background: none !important;
     }
     }
