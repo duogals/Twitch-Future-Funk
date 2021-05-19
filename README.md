@@ -10,7 +10,10 @@ Also, the code is sort of messy because I couldn't be bothered to fix it with th
 With recent updates done to Twitch this code will not 100% cover everything, but I'm working on it.
 
 ## Installation
-SoonTM
+Install the [Stylus extension](https://add0n.com/stylus.html) to install the UserCSS.
+
+* Click the 'Install directly with Stylus' button or [click here.](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css).
+* You can also find this UserCCS [here](https://userstyles.org/styles/189576/twitch-future-funk), but since userstyles.org is such a slow website; versions of the UserCSS will not be as frequently updated there. I highly suggest installing it through the other options. 
 
 ## Preview
 ### Front Pape
