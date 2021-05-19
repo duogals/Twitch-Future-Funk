@@ -83,10 +83,28 @@
      .tw-root--theme-dark .navigation-link {
          color: rgb(201 8 255);
     }
-    /* LEFT SIDE NAV COLOR */
+
+    /*============EVERYTHING LEFT NAVIGATION BAR BEGINS============*/
+    .wshJJ {
+         color: #04dbff  !important;
+    }
+    /*========LOGGED IN BEGINS========*/
+    /* LEFT SIDE NAV COLOR OLD */
      .side-nav__overlay-wrapper {
          background-color: #12012a;
     }
+    /*========LOGGED IN ENDS========*/
+    /*========LOGGED OUT BEGINS========*/
+    /* LEFT SIDE NAV COLOR NEW*/
+    .ZkZgD {
+         background-color: #12012a  !important;
+    }
+    /*'Join the Twitch community!' card*/
+    .VFufG {
+         background-color: #25004d  !important;
+    }
+    /*========LOGGED OUT ENDS========*/
+
     /* LEFT SIDEBAR NAVIGATOR BUTTONS: FOLLOWED CHANNELS, RECOMMENDED CHANNELS, AND ONLINE FRIENDS */
      .tw-c-text-alt-2 {
          color: rgb(202 13 255) !important;
@@ -94,6 +112,9 @@
     .tw-root--theme-dark .side-nav__overlay-wrapper {
          background-color: #1b0136;
     }
+    /*============EVERYTHING LEFT NAVIGATION BAR ENDS============*/
+
+
     /* INNER ICON COLOR FOR: FOLLOW/UNFOLLOW AND TURN NOTIFICATIONS ON/OFF */
     .tw-core-button--secondary {
         background-color: #0e0121;
@@ -212,7 +233,6 @@
     }
     element.style {
          background-color: rgb(22 0 35);
-         background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/asmongold-channel_offline_image-6cdc9b8f574d9862-1920x1080.jpeg);
     }
     .tw-root--theme-dark .scrollable-area .simplebar-track .simplebar-scrollbar {
          background: #03fff4;
@@ -309,16 +329,30 @@
          color: #04dbff !important;
     }
     
+     /*==========General Icons Begins==========*/
+     /*=======LOGGED IN BEGINS========*/
     /*Icons such as Inbox, Whisper, Bits, New Prime Loot, Share, Emotes Chat settings etc.*/
-    hSxEIC {
+    .hSxEIC {
          color: #09effa !important;
     }
-    
-    /*'Click to claim a bonus!' button, basically channel points chest*/
+     /*'Click to claim a bonus!' button, basically channel points chest*/
     .VGQNd {
-         background-color: #6f00d9 !important;
-         color: #09effa !important;
+     background-color: #6f00d9 !important;
+     color: #09effa !important;
+     }
+     /*=======LOGGED IN ENDS========*/
+     /*=======LOGGED OUT BEGINS========*/
+     /*General icons*/
+    .cMQeyU{
+          color: #09effa !important;
     }
+    /*Follow heart and text*/
+    .xsINH {
+         color: #04dbff !important;
+    }
+     /*=======LOGGED OUT ENDS========*/
+     /*==========General Icons Ends==========*/
+
     
     /*Default Channel Points icon*/
     .gShCOc {
@@ -373,7 +407,19 @@
          background-color: #3500a7 !important;
          color: #04dbff !important;
     }
-    
+    /*=====EVERYTHING DROPDOWN MENU PROFILE PICTURE=======*/
+    /*Status such as Offline, Online, and away*/
+    .presence-text {
+         color: #a749fd !important;
+    }
+    /*Status dot Offline*/
+    .jrLemK {
+         background-color: #6f44a9;
+    }
+    /*Status dot Online*/
+    .gFaMzg {
+         background-color: #00eaf5 !important;
+    }
     /*Dropdown menu from Profile Picture button*/
     .bXPPWD {
          background-color: #110035  !important;
@@ -391,13 +437,17 @@
     .dENtHr {
          color: #d6c929  !important;
     }
+    /*Toggle button inside profile dropdown menu disabled*/
     .oHwVV {
-         background: #04dbff !important;
-    }
+         background:  #6f00d9 !important;
+         border-color: #00ddff !important;
+    }.oHwVV:hover {
+     border-color: #00ddff !important;
+     }
     .oHwVV::after {
          background-color: #04dbff !important;
     }
-    
+
     /*Primeloot notification count*/
     .ibisXf {
          background-color: #6f00d9 !important;
@@ -459,7 +509,22 @@
     }
     
     
-    
+    /*========CHANNEL PAGE BEGINS=========*/
+    /*LOGGED IN BEGINS*/
+    /*Channel info toggled*/
+    .hVRTjq {
+         background-color: #25004d !important;
+    }
+    /*channel status info offline (the offline/online thing above the username*/
+    .channel-status-info--offline, .channel-status-info--private {
+         background: #6f00d9 !important;
+         color: #04dbff !important;
+    }
+    /*'is offline.' text*/
+    .jBeHoW {
+         color: #04dbff !important;
+    }
+
     
     
     }
