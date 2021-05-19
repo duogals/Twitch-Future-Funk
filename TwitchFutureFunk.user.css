@@ -1,22 +1,17 @@
 @-moz-document url-prefix("https://www.twitch.tv/") {
-    /* 
-    
-        Author: duogals/Shadder
-        Website: Twitch.tv
-        Theme: Future Funk
-        Creation Date: 2020-09-18
-        Last Updated: 2021-05-18
-        
-        Compatible with 'BetterTTV' 
-        
-        You are free to use this css-code however you like!
-    
-        PLEASE TURN DARK MODE ON!
-      
-      If the userstyles servers weren't so slow; 
-      I would've cleaned the code and made it work with light-mode too, but it is 
-      what it is.
-    */
+    /* ==UserStyle==
+     @name			Twitch Future Funk
+     @namespace		duogals
+     @version		     1.0.1
+     @description	     A future funk themed style for Twitch.tv.
+     @author			duogals/Shadder
+     @license		     CC0 - Public Domain
+     @homepageURL	     https://github.com/duogals/Twitch-Future-Funk/
+     @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
+     @updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-MyAnimeList/master/DarkNightMAL.user.css
+     @Creation-Date      2020-09-18
+     @Last-Updated       2021-05-19
+    ==/UserStyle== */
     
     /* BODY COLOR */
      body {
