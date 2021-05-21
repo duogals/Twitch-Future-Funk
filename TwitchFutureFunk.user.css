@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.0.5
+     @version		     1.0.6
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-MyAnimeList/master/DarkNightMAL.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-05-19
+     @Last-Updated       2021-05-22
     ==/UserStyle== */
     
     /* BODY COLOR */
@@ -503,6 +503,10 @@
     .tw-root--theme-dark .whispers-list-item--selected .whispers-list-item__archive-button, .tw-root--theme-dark .whispers-list-item:hover .whispers-list-item__archive-button {
          background-color: #0c0026 !important;
     }
+
+    .tw-root--theme-dark .whispers-list-item__archive {
+         background-color: #0c0026 !important;
+    }
     
     .jKbvEr {
          border-bottom-color: #04dbff !important;
@@ -545,6 +549,8 @@
           background-color: #0c0026  !important;
     } .ipohvg {
           background-color: #0c0026  !important;
+    } .hvsHAA {
+         background-color: #0c0026 !important;
     }
 
     /*==SCHEDULE==*/
@@ -659,5 +665,34 @@
          background: none !important;
     } .tw-root--theme-dark, .video-chat__header {
          background: none !important;
+    }
+
+    /*Twitch Whisper header*/
+    .tw-root--theme-dark .thread-header__title-bar-container {
+         background: #25004d !important;
+    } .tw-root--theme-dark .thread-header__title-bar-container--focused {
+         background-color: #25004d !important;
+    } .tw-root--theme-dark .thread-header__click-area:focus .thread-header__title-bar-container {
+         background: #25004d !important;
+    }
+
+    /*Whisper body*/
+    .bxKxLH {
+         background-color: #0c0026 !important;
+    }
+
+    /*'Please don't share password or personal information' text*/
+    .dSWgRY {
+         color: #1288dc !important;
+    }
+
+    /*Timestamp in whisper chat*/
+    .gndhOM {
+         color: #09effa !important;
+    }
+
+    /*Whisper dropdown user highlight*/
+    .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .whispers-list-item:hover {
+         background-color: #160146 !important;
     }
     }
