@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.0.6
+     @version		     1.0.7
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -694,5 +694,10 @@
     /*Whisper dropdown user highlight*/
     .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .whispers-list-item:hover {
          background-color: #160146 !important;
+    }
+
+    /*Sub anniversary header*/
+    .hBhqbb {
+         background-color: #0c0026 !important;
     }
     }
