@@ -773,4 +773,34 @@
          background-color: #110035 !important;
     }
 
+    /*Animated emotes message*/
+    .jpEGpg {
+         color: #00daff !important;
+    } .hBxyLz {
+         background-color: #460cf7 !important;
+    } .FYQnE {
+         background-color: #0c0026 !important;
+    } .heaSCI {
+          background-color: #2a00ac !important;
+    }
+
+    /*News pop-ups  on channels*/
+    .jpZWRE {
+          background-color: #17043e !important;
+    } .cmkXFa {
+          background-color: #6000ee !important;
+    }
+
+    /*Previous messagtes mod version*/
+    .bQueVj {
+         background-color: #06000b;
+    }
+
+    /*New messages line*/
+    .live-message-separator-line__hr {
+     border-top:var(--border-width-default) solid #0bc7ff!important;
+    } .euvEeP {
+          color: #0bc7ff !important;
+    }
+
     }
