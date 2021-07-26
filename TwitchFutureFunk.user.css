@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.1.1
+     @version		     1.1.2
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-07-14
+     @Last-Updated       2021-07-27
     ==/UserStyle== */
     
     /* BODY COLOR */
@@ -36,6 +36,13 @@
     /* BASE COLORS FOR NAVIGATOR. INCLUDES BUTTON COLOR FOR FOLLOW/UNFOLLOW AND TURN NOTIFICATIONS ON/OFF */
      .tw-c-background-base {
          background-color: rgb(12 0 38) !important;
+    } .fEINUM {
+         background-color: #6f00d9 !important;
+         color: #00f4ff !important;
+    } .fEINUM:hover {
+         background-color: #8304fa !important;
+    } .iUbpmZ {
+         color: #00f4ff !important;
     }
     /* COLOR FOR BUTTONS SUCH AS PRIME LOOT, NOTIFICATIONS, AND WHISPERS */
      .tw-button-icon {
@@ -62,6 +69,8 @@
     /*Search Input Window Drop-down suggestions*/
     .bRzwBe{
           background-color: #0c0026 !important;
+    } .gNGabF {
+         background-color: #0c0026 !important;
     }
 
     /* COLORS FOR BUTTONS SUCH AS: FOLLOWING, BROWSE, ESPORTS, AND MUSIC */
@@ -145,6 +154,12 @@
      .channel-root__info .channel-info-content {
          background-color: rgb(14 1 33);
     }
+
+    /* ABOUT 'USERNAME' CARD*/
+    .debKht {
+         background-color: #0C0026 !important;
+    }
+    /* BACKGROUND COLOR */
     /* TEXT COLOR FOR 'STREAM CHAT' */
      .tw-c-text-alt {
          color: rgb(0 221 255) !important;
@@ -295,6 +310,20 @@
     .jbpuQw {
          background-color: #6f00d9 !important;
          color: #04dbff !important;
+    } .jGyqKK {
+          background-color: #6f00d9 !important;
+          color: #04dbff !important;       
+    }
+    /*Gift a Sub pop-up*/
+    .support-panel {
+         background-color: #0c0026 !important;
+    } .eIHNAz {
+         background-color: #0e0121 !important;
+    } /*Tier 1/2/3 Gifts button*/
+    .UvsjL {
+         background-color: #7100db !important;
+         border-color: #7100db !important;
+         color: #00f4ff !important;
     }
     
     /*User notice chat message for subscribe anniversaries*/
@@ -308,6 +337,10 @@
     
     /*Channel Leaderboard header, where bits and gifted sub leaders are*/
     .goGBPp {
+         background-color: #0c0026 !important;
+    } .gVXTvb {
+         background-color: #0c0026 !important;
+    } .jcdoPm {
          background-color: #0c0026 !important;
     }
     
@@ -326,6 +359,8 @@
          background-color: #0c0026 !important;
     } .hWwloK {
           background-color: #0c0026 !important;
+    } .jfOhQh {
+         background-color: #0c0026 !important;
     }
     /*'STREAM CHAT' text*/
     .hQRdId {
@@ -346,6 +381,12 @@
     .VGQNd {
      background-color: #6f00d9 !important;
      color: #09effa !important;
+     } .jwRWhW {
+          background-color: #6f00d9 !important;
+          color: #09effa !important;
+     } .jwRWhW:hover {
+          background-color: #8b0fff !important;
+          color: #09effa !important;
      }
      /*=======LOGGED IN ENDS========*/
      /*=======LOGGED OUT BEGINS========*/
@@ -364,6 +405,8 @@
     /*Default Channel Points icon*/
     .gShCOc {
          color: #09effa !important;
+    } .jDaxrs {
+          color: #09effa !important;
     }
     
     /*Channel Points text*/
@@ -374,11 +417,15 @@
     /*Top Navigation bar with buttons such as: 'Following', 'Browse', and the search bar.*/
     .cPVNOL {
          background-color: #0c0026 !important;
+    } .cmgjoE {
+         background-color: #0c0026 !important;
     }
     
     /*Profile Picture background on the top right of the navigation bar*/
     .hDxvGD {
          background-color: #0c0026 !important;
+    } .jeUuuU {
+         background-color: none !important;
     }
     
     /*Friends activity status, Followed channels category text, and new videos on the left navigator bar.*/
@@ -392,6 +439,8 @@
     /*Followed Channels, and Online Friends usernames*/
     .eAXpco {
          color: #04dbff !important;
+    } .bKZECs {
+         color: #04dbff !important;
     }
     
     /*Followed Channels Viewer Count and */
@@ -403,10 +452,15 @@
     .iDPpfj {
          background-color: #6f00d9 !important;
          color: #04dbff !important;
+    } .cgBRJo {
+         background-color: #0c0026 !important;
+         color: #04dbff !important;
     }
     .iDPpfj:hover {
          background-color: #8a10fe !important;
-    }
+    } .cgBRJo:hover {
+         background-color: #160146 !important;
+    } 
     
     .highlight {
          background-color: #25004d !important;
@@ -490,9 +544,16 @@
          color: #7207ff !important;
     }
     
-    /*Purchase Bits dropdown menu*/
+    /*Purchase Bits dropdown menu*/ 
     .iTdjRF {
          background-color: #0c0026  !important;
+    } .dPYmpj {
+         background-color: #0c0026 !important; 
+         color: #00f4ff !important;
+    } .fAphVn {
+         color: #00f4ff !important;
+    } .hLogbv {
+         color: #00f4ff !important;
     }
     
     /*Whispers dropdown menu*/
@@ -564,6 +625,18 @@
          color: #00daff !important;
     } .bttv-moderator-card-messages {
           background-color: #06000b!important;
+    } .hiVgEr {
+         background-color: #0c0026 !important;
+    } .dguXPo {
+         background-color: #0c0026 !important;
+    } .ksWjUf {
+         background-color: #0c0026 !important;
+    } .bttv-moderator-card-user-stats {
+         color: #04dbff !important;
+    } .ckrBdg {
+         color: #04dbff !important;
+    } .lnpmAI {
+         color: #04dbff !important;
     }
 
     /*==SCHEDULE==*/
@@ -616,10 +689,14 @@
           background-color: #0c0026 !important;
     } .kqWtjD {
           background-color: #0c0026 !important;
+    } .cgUXqp {
+         background-color: #0c0026 !important;
     }
     /*Prediction body*/
     .iXotcI {
           background-color: #0c0026 !important;
+    } .kMFjgd {
+         background-color: #1d0256 !important;
     }
 
     /*Predict Aftermath body*/
@@ -640,7 +717,9 @@
           background-color: #4e1dc5 !important;
     } /*Right nav bar inside twitch's emote pop-up window*/
     .FYQnE {
-          background-color: #0f0528;
+          background-color: #0f0528 !important;
+    } .hsZsWx {
+         background-color: #0f0528 !important;
     }
     .CGszq {
           background-color: #1b0a47 !important;
@@ -662,11 +741,25 @@
     /*Bits pop-up menu in chat input window*/
     .bfieTc{
           background-color: #0c0026 !important;
+    } .dtAtRP {
+          background-color: #0c0026 !important;  
     }
 
     /*===Hype Train body==*/
     .ksgxNG {
           background-color: #0c0026 !important;
+    } .duIQjo {
+         background-color: #0c0026 !important;
+    } .brMHkD {
+         background-color: #0c0026 !important;
+    } .cNoGYg {
+         background-color: #0c0026 !important;
+    } .krZTEQ {
+         background-color: none !important;
+         border-left: none !important;
+         border-right: none !important;
+         border-top: none !important;
+         border-bottom: none !important;
     }
 
     /*Stream interact */
@@ -803,4 +896,19 @@
           color: #0bc7ff !important;
     }
 
+    /*Subscribed with prime user notification in chat*/
+    .eVlETT {
+     background-color: #1f0356 !important;
+    }
+    /*Channel points pop-up window*/
+    .eEeQOt {
+         background-color: #0c0026 !important;
+         color: #0bc7ff !important;
+    } .gtxFEb {
+         background-color: #0c0026 !important;
+         color: #0bc7ff !important;
+    } .egyxwW {
+         background-color: #2a0085 !important;
+          color: #0bc7ff !important;
+    }
     }
