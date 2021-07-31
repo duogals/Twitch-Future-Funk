@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.1.5
+     @version		     1.1.6
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -162,6 +162,8 @@
     /* ABOUT 'USERNAME' CARD*/
     .debKht {
          background-color: #0C0026 !important;
+    } .jYFsjp {
+          background-color: #0C0026 !important;
     }
     /* BACKGROUND COLOR */
     /* TEXT COLOR FOR 'STREAM CHAT' */
