@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.1.4
+     @version		     1.1.5
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-07-27
+     @Last-Updated       2021-07-31
     ==/UserStyle== */
     
     /* BODY COLOR */
@@ -121,6 +121,8 @@
     }
     .tw-root--theme-dark .side-nav__overlay-wrapper {
          background-color: #1b0136;
+    } .hjdJIE {
+          background-color: #1b0136;
     }
     /*============EVERYTHING LEFT NAVIGATION BAR ENDS============*/
 
@@ -153,6 +155,8 @@
     /* BACKGROUND COLOR FOR EVERYTHING BEHIND CHANNEL NAME, STREAM TITEL, CHANNEL DISCRIPTION */
      .channel-root__info .channel-info-content {
          background-color: rgb(14 1 33);
+    } .jJUXXg {
+         background-color: #0e0121 !important;
     }
 
     /* ABOUT 'USERNAME' CARD*/
@@ -370,6 +374,9 @@
     /*'Chat on Videos' header*/
     .tw-root--theme-dark .video-chat__header {
          background-color: #0c0026 !important;
+         color: #04dbff !important;
+    } .gSBWbc {
+         background-color: #08001a !important;
     }
      /*==========General Icons Begins==========*/
      /*=======LOGGED IN BEGINS========*/
@@ -434,6 +441,8 @@
     }
     .cheVcL {
           background-color: #6100bd !important;
+    } .iFbaGf {
+         color: #f66bff !important;
     }
     
     /*Followed Channels, and Online Friends usernames*/
@@ -441,11 +450,15 @@
          color: #04dbff !important;
     } .bKZECs {
          color: #04dbff !important;
+    } .hhDlEz {
+         color: #04dbff !important;
     }
     
     /*Followed Channels Viewer Count and */
     .cbThWs {
          color: #f66bff  !important;
+    } .jxsNUG {
+         color: #04dbff !important;
     }
     
     /*Get Bits button*/
@@ -521,6 +534,9 @@
     /*Bottom left searchbar background on left navigator menu*/
     .eqpKSV {
          background-color: #1b0136 !important;
+    } .higrem {
+         border-top: #00e1ff00 !important;
+         background-color: #0c0026 !important;
     }
     
     /*Chat Settings pop-up menu*/
@@ -583,7 +599,10 @@
          background-color: #0c0026 !important;
     }
     
-    
+    /*Whisper window*/
+    .hLalHI {
+         background-color: #0c0026 !important;
+    }
     /*========CHANNEL PAGE BEGINS=========*/
     /*LOGGED IN BEGINS*/
     /*Channel info toggled*/
@@ -740,6 +759,10 @@
     /*Carousel nav buttons*/
     .tw-root--theme-dark .carousel-player-nav-arrow__container {
           background-color: #6f00d9 !important;
+    } .gPpirl {
+          background-color: #6f00d9 !important;
+    } .bOppjh {
+         color: #04dbff !important;
     }
     /*Bits pop-up menu in chat input window*/
     .bfieTc{
@@ -793,11 +816,15 @@
     /*'Please don't share password or personal information' text*/
     .dSWgRY {
          color: #1288dc !important;
+    } .cUOTGn {
+         color: #1288dc !important;
     }
 
     /*Timestamp in whisper chat*/
     .gndhOM {
          color: #09effa !important;
+    } .kHcHKL {
+          color: #09effa !important;
     }
 
     /*Whisper dropdown user highlight*/
@@ -922,5 +949,23 @@
          background-color: #12003b !important;
     } .jMBZbS {
          color: #00daff !important;
+    } 
+    /*Chapters count found on for example: Recen't broadcasts*/
+    .jqJaOh {
+         color: #04dbff !important;
+         background-color: #6f00d9 !important;
+    }
+    /*Filter by button*/
+    .eKxqcH {
+         border-color: #ffffff00 !important;
+         background-color: #7100db !important;
+    }
+    /*View All, Play All buttons*/
+    .jDiFXV {
+         color: #04dbff !important;
+    }
+    /*'Sign up to exeprience the best of' card on left navigator*/
+    .MbISN {
+         background-color: #0e0121 !important;
     }
     }
