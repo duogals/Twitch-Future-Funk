@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.1.6
+     @version		     1.1.7
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-07-31
+     @Last-Updated       2021-08-11
     ==/UserStyle== */
     
     /* BODY COLOR */
@@ -42,6 +42,9 @@
     } .fEINUM:hover {
          background-color: #8304fa !important;
     } .iUbpmZ {
+         color: #00f4ff !important;
+    } .ctCEIa {
+         background-color: #8304fa !important;
          color: #00f4ff !important;
     }
     /* COLOR FOR BUTTONS SUCH AS PRIME LOOT, NOTIFICATIONS, AND WHISPERS */
@@ -164,6 +167,8 @@
          background-color: #0C0026 !important;
     } .jYFsjp {
           background-color: #0C0026 !important;
+    } .bcvuwn {
+         background-color: #0c0026 !important;
     }
     /* BACKGROUND COLOR */
     /* TEXT COLOR FOR 'STREAM CHAT' */
@@ -319,6 +324,9 @@
     } .jGyqKK {
           background-color: #6f00d9 !important;
           color: #04dbff !important;       
+    } .euIPFy {
+         background-color: #6f00d9 !important;
+         color: #04dbff !important;
     }
     /*Gift a Sub pop-up*/
     .support-panel {
@@ -348,11 +356,16 @@
          background-color: #0c0026 !important;
     } .jcdoPm {
          background-color: #0c0026 !important;
+    } .kbaNko {
+         background-color: #0c0026 !important;
     }
     
     /*Extended Channel Leaderboard*/
     .drMKSw {
          background-color: #0c0026 !important;
+    } .eFAYYl {
+         background-color: #0c0026 !important;
+         color: #00d9fb !important;
     }
     
     /*Extended leaderboard minimize button*/
@@ -367,9 +380,13 @@
           background-color: #0c0026 !important;
     } .jfOhQh {
          background-color: #0c0026 !important;
+    } .coTOOz {
+         background-color: #0c0026 !important;
     }
     /*'STREAM CHAT' text*/
     .hQRdId {
+         color: #04dbff !important;
+    } .iniZHW {
          color: #04dbff !important;
     }
     
@@ -396,6 +413,10 @@
      } .jwRWhW:hover {
           background-color: #8b0fff !important;
           color: #09effa !important;
+     } .fERWGf {
+          background-color: #6f00d9 !important;
+     } .fERWGf:hover {
+          background-color: #8b0fff !important;
      }
      /*=======LOGGED IN ENDS========*/
      /*=======LOGGED OUT BEGINS========*/
@@ -421,12 +442,16 @@
     /*Channel Points text*/
     .GBpnX {
          color: #09effa !important; 
+    } .iTEzQy {
+         color: #09effa !important;
     }
     
     /*Top Navigation bar with buttons such as: 'Following', 'Browse', and the search bar.*/
     .cPVNOL {
          background-color: #0c0026 !important;
     } .cmgjoE {
+         background-color: #0c0026 !important;
+    } .kgPegi {
          background-color: #0c0026 !important;
     }
     
@@ -445,6 +470,8 @@
           background-color: #6100bd !important;
     } .iFbaGf {
          color: #f66bff !important;
+    } .bOwyAL {
+         color: #f66bff !important;
     }
     
     /*Followed Channels, and Online Friends usernames*/
@@ -454,12 +481,18 @@
          color: #04dbff !important;
     } .hhDlEz {
          color: #04dbff !important;
+    } .cqJCFf {
+         color: #04dbff !important;
+    } .cTGYGP {
+         color: #04dbff !important;
     }
     
     /*Followed Channels Viewer Count and */
     .cbThWs {
          color: #f66bff  !important;
     } .jxsNUG {
+         color: #04dbff !important;
+    } .gdgOmq {
          color: #04dbff !important;
     }
     
@@ -475,7 +508,11 @@
          background-color: #8a10fe !important;
     } .cgBRJo:hover {
          background-color: #160146 !important;
-    } 
+    } .cAHINR {
+         background-color: #6f00d9 !important;
+    } .cAHINR:hover {
+         background-color: #8a10fe !important;
+    }
     
     .highlight {
          background-color: #25004d !important;
@@ -539,17 +576,26 @@
     } .higrem {
          border-top: #00e1ff00 !important;
          background-color: #0c0026 !important;
+    } .jlNkvg {
+         background-color: #0c0026 !important;
+         border-top: #0c0026 !important;
     }
     
     /*Chat Settings pop-up menu*/
     .ixPmjS {
          background-color: #0c0026  !important;
          color: #04dbff  !important;
-    }
+    } .iZptsD {
+         background-color: #0c0026 !important;
+         color: #04dbff !important; 
+    } 
+
     
     /*Top header in Chat Settings pop-up menu*/
     .yjoEf {
          background-color: #0c0026  !important;
+    } .dzPpsq {
+         background-color: #0c0026 !important;
     }
     /*Top header text in Chat Settings pop-up menu*/
     .chUZlO {
@@ -599,8 +645,12 @@
     .jKbvEr {
          border-bottom-color: #04dbff !important;
          background-color: #0c0026 !important;
+    } 
+
+    /*'Search for People' background*/
+    .czrbwK {
+         background-color: #0c0026 !important;
     }
-    
     /*Whisper window*/
     .hLalHI {
          background-color: #0c0026 !important;
@@ -635,6 +685,9 @@
     /*Top header in 'users in chat'*/
     .fBfwWB {
           background-color: #0c0026  !important;
+    } .jBYLcw {
+         background-color: #0c0026 !important;
+         color: #04dbff !important;
     }
     /*==User pop up window (Where you can add friend, whisper, gift the user a sub*/
     .gubDWX {
@@ -747,6 +800,13 @@
     }
     .CGszq {
           background-color: #1b0a47 !important;
+    } .bFfkIP {
+         background-color: #1b0a47 !important;
+    } 
+
+    /*username header highlight when about to report user's emotes*/
+    .tw-root--theme-dark .emote-grid-section__balloon-title {
+         background-color: #1b0a47 !important;
     }
     /*FrontPage Streamer details in carousel*/
     .tw-root--theme-dark .carousel-metadata {
@@ -771,6 +831,8 @@
           background-color: #0c0026 !important;
     } .dtAtRP {
           background-color: #0c0026 !important;  
+    } .hCiPqd {
+         background-color: #0c0026 !important;
     }
 
     /*===Hype Train body==*/
@@ -969,5 +1031,20 @@
     /*'Sign up to exeprience the best of' card on left navigator*/
     .MbISN {
          background-color: #0e0121 !important;
+    }
+
+    /*Badges background on usercards*/
+    .dqxEWE {
+         background-color: #0c0026 !important;
+    } 
+    /*Background color for the element between Badges and 'Chat Messages'*/
+    .knHLPh { /*top*/
+         background-color: #0c0026 !important;
+    }
+    .dEwPJi { /*middle*/
+         background-color: #0c0026 !important;
+    } 
+    .gbOHXl { /*bottom*/
+         background-color: #0c0026 !important;
     }
     }
