@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.1.7
+     @version		     1.1.8
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -1045,6 +1045,46 @@
          background-color: #0c0026 !important;
     } 
     .gbOHXl { /*bottom*/
+         background-color: #0c0026 !important;
+    }
+    /*FrankerFaceZ(FFZ) begins*/
+    /*FFZ Header and logo*/
+    .ffz-main-menu>header {
+         color: #09effa !important;
+    }
+    /*FFZ left navbar*/
+    .tw-c-background-alt-2 {
+         background-color: #0c0026 !important;
+    }
+    /*FFZ Profile button*/
+    .ffz--widget:last-child {
+         background-color: #8500ff !important;
+    }
+    /*FFZ Appearance >> Layout divs explanation text*/
+    .tw-c-text-alt-2 {
+         color: #00daff !important;
+    } .ffz--widget:last-child {
+         background-color: #0d012a !important;
+    }
+    /*FZZ Search Settings input window*/
+    .ffz-main-menu>header input, .ffz-main-menu>header button {
+         background-color: #080033 !important;
+    } .ffz--widget input, .ffz--widget select {
+         background-color: #080033 !important;
+    } 
+    /*FFZ Chat line message background*/
+    .chat-line__message {
+         background-color: #050015 !important;
+    } .guFQFl {
+         background-color: #050015 !important;
+    }
+
+    /*FFZ Left expandable menu with followed channels, friends etc.*/
+    .tw-root--theme-dark .whispers-list-item__archive, .tw-root--theme-dark .whispers-list-item .whispers-list-item__archive-button, .tw-root--theme-dark .top-stats-tab:hover, .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .side-nav__overlay-wrapper, .tw-root--theme-dark .thread-header__title-bar-container, html .whispers-list-item__archive, html .whispers-list-item .whispers-list-item__archive-button, html .top-stats-tab:hover, html .whispers-list-item--selected, html .side-nav__overlay-wrapper, html .thread-header__title-bar-container {
+         background-color: #0c0026 !important;
+    } 
+    /*FFZ Switch to Non-mod settings in the pop-up window for chat settings.*/
+    .ihllwC {
          background-color: #0c0026 !important;
     }
     }
