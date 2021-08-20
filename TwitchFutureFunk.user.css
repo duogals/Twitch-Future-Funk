@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.1.8
+     @version		     1.1.9
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-08-11
+     @Last-Updated       2021-08-20
     ==/UserStyle== */
     
     /* BODY COLOR */
@@ -168,6 +168,8 @@
     } .jYFsjp {
           background-color: #0C0026 !important;
     } .bcvuwn {
+         background-color: #0c0026 !important;
+    } .jFhqSt {
          background-color: #0c0026 !important;
     }
     /* BACKGROUND COLOR */
@@ -460,6 +462,8 @@
          background-color: #0c0026 !important;
     } .jeUuuU {
          background-color: #0c002600 !important;
+    } .fJapS {
+         background-color: none !important;
     }
     
     /*Friends activity status, Followed channels category text, and new videos on the left navigator bar.*/
@@ -688,6 +692,9 @@
     } .jBYLcw {
          background-color: #0c0026 !important;
          color: #04dbff !important;
+    } .gnrDvI {
+         background-color: #0c0026 !important;
+         color: #00f4ff !important;
     }
     /*==User pop up window (Where you can add friend, whisper, gift the user a sub*/
     .gubDWX {
@@ -1087,4 +1094,25 @@
     .ihllwC {
          background-color: #0c0026 !important;
     }
+
+    /*Connecting to Chat*/
+    .dDeHGy {
+         background-color: #0c0026 !important;
+         color: #00f4ff !important;
+    }
+
+    /*Messages, Timeouts, Bans. Mod Comments buttons/counters*/
+    .lgxKcq{
+         background-color: #0c0026 !important;
+         color: #00f4ff !important;
+    }
+    /*COLOR PALETTE*/
+    .colorpallete {
+     color: #0c0026
+            #00f4ff
+            #7100db
+            #f66bff
+            #1a0152
+    }
+    
     }
