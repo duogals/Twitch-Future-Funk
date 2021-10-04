@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.2.0
+     @version		     1.2.1
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-08-20
+     @Last-Updated       2021-10-05
     ==/UserStyle== */
     
     /* BODY COLOR */
@@ -46,6 +46,8 @@
     } .ctCEIa {
          background-color: #8304fa !important;
          color: #00f4ff !important;
+    } .bneAWp {
+         color: #00f4ff;
     }
     /* COLOR FOR BUTTONS SUCH AS PRIME LOOT, NOTIFICATIONS, AND WHISPERS */
      .tw-button-icon {
@@ -147,6 +149,8 @@
      .tw-core-button--primary {
          background-color: #6700cc;
          color: rgb(5 220 253);
+    } .ksFrFH {
+         background-color: #8a10fe !important;
     }
     /* PRIMARY COLOR FOR TEXTS SUCH AS: CHAT TEXT, CHANNEL NAME, STREAM TITEL */
      .tw-c-text-base {
@@ -170,6 +174,8 @@
     } .bcvuwn {
          background-color: #0c0026 !important;
     } .jFhqSt {
+         background-color: #0c0026 !important;
+    } .fSaGbE {
          background-color: #0c0026 !important;
     }
     /* BACKGROUND COLOR */
@@ -227,6 +233,8 @@
     }
     .tw-root--theme-dark .chat-room {
          background: #0d0017;
+    } .iTySPm {
+         background-color: #0c0026;
     }
     /* Input window for chat 'Send a message' */
      .tw-textarea {
@@ -345,10 +353,10 @@
     /*User notice chat message for subscribe anniversaries*/
     .qfuHB {
          background-color: #25004d !important;
-    }
-    
-    .bVXJYZ {
+    } .bVXJYZ {
          background-color: #0c0026 !important;
+    } .gKMqzd {
+         background-color: #0c0026;
     }
     
     /*Channel Leaderboard header, where bits and gifted sub leaders are*/
@@ -360,6 +368,8 @@
          background-color: #0c0026 !important;
     } .kbaNko {
          background-color: #0c0026 !important;
+    } .izbNhv {
+         background-color: #0c0026 !important;
     }
     
     /*Extended Channel Leaderboard*/
@@ -368,6 +378,9 @@
     } .eFAYYl {
          background-color: #0c0026 !important;
          color: #00d9fb !important;
+    } .kVnYoS {
+         background-color: #0c0026 !important;
+         color: #00d9fb !important
     }
     
     /*Extended leaderboard minimize button*/
@@ -383,6 +396,8 @@
     } .jfOhQh {
          background-color: #0c0026 !important;
     } .coTOOz {
+         background-color: #0c0026 !important;
+    } .gnaiJY {
          background-color: #0c0026 !important;
     }
     /*'STREAM CHAT' text*/
@@ -419,6 +434,10 @@
           background-color: #6f00d9 !important;
      } .fERWGf:hover {
           background-color: #8b0fff !important;
+     } .hERNRa {
+          background-color: #6f00d9 !important;
+     } .hERNRa:hover {
+          background-color: #8b0fff !important;
      }
      /*=======LOGGED IN ENDS========*/
      /*=======LOGGED OUT BEGINS========*/
@@ -454,6 +473,8 @@
     } .cmgjoE {
          background-color: #0c0026 !important;
     } .kgPegi {
+         background-color: #0c0026 !important;
+    } .gJbMyx {
          background-color: #0c0026 !important;
     }
     
@@ -516,6 +537,12 @@
          background-color: #6f00d9 !important;
     } .cAHINR:hover {
          background-color: #8a10fe !important;
+    } .fSetzA {
+         background-color: #8a10fe !important;
+         color: #04dbff !important;
+    } .fSetzA:hover {
+         background-color: #7810da !important;
+         color: #02b6d6 !important;
     }
     
     .highlight {
@@ -543,6 +570,17 @@
     /*Dropdown menu from Profile Picture button*/
     .bXPPWD {
          background-color: #110035  !important;
+    } .ePiSwt {
+         background-color: #080035 !important;
+    }
+
+    /*Dropdown menu for Notifications, Prime Loot, Whispers*/
+    .lflRWS {
+         background-color: #080035 !important;
+    } 
+    /*'MOST RECENT' text inside the notifications dropdown menu*/
+    .center-window__section-header {
+         color: #00eaf5 !important;
     }
     /*Dropdown menu text*/
     .llxjvH {
@@ -592,7 +630,13 @@
     } .iZptsD {
          background-color: #0c0026 !important;
          color: #04dbff !important; 
-    } 
+    } .efNzbE {
+         background-color: #0c0026 !important;
+         color: #04dbff !important;
+    } .gmGoNt {
+         background-color: #0c0026 !important;
+         color: #04dbff !important;
+    }
 
     
     /*Top header in Chat Settings pop-up menu*/
@@ -765,6 +809,8 @@
     /*'More' pop up details window*/
     .bxpmMB {
           background-color: #0c0026 !important;
+    } .DWMXg {
+          background-color: #0c0026 !important;
     }
 
     /*Settings -> Profile*/
@@ -839,6 +885,8 @@
     } .dtAtRP {
           background-color: #0c0026 !important;  
     } .hCiPqd {
+         background-color: #0c0026 !important;
+    } .dpCNmK {
          background-color: #0c0026 !important;
     }
 
@@ -1084,6 +1132,8 @@
          background-color: #050015 !important;
     } .guFQFl {
          background-color: #050015 !important;
+    } .iTySPm {
+         background-color: #050015 !important;
     }
 
     /*FFZ Left expandable menu with followed channels, friends etc.*/
@@ -1104,6 +1154,36 @@
     /*Messages, Timeouts, Bans. Mod Comments buttons/counters*/
     .lgxKcq{
          background-color: #0c0026 !important;
+         color: #00f4ff !important;
+    }
+
+    /*Share sub anniversary in chat*/
+    .gLfTKe{
+         background-color: #0c0026 !important;
+    } .ccgiex { /*around the chat color while sharing sub anniversary*/
+         background-color: #0c0026 !important;
+    }
+
+    /*==7TV==*/
+    /*7tv Menu*/
+    /*7tv icon background*/
+    .css-apoynj-MuiFormHelperText-root {
+         color: #00d0ff !important;
+    }
+    /*7tv main background*/
+    .seventv-settings-menu.seventv-sm-backdrop-blur {
+         background-color: #100031bf !important;
+    } 
+    /*7tv Left sidebar*/
+    .seventv-settings-menu .seventv-sm-sidebar {
+         background-color: #0c0026 !important;
+    }
+    /*7tv top header*/
+    .seventv-settings-menu .seventv-sm-content .seventv-sm-heading {
+         background-color: #0c004d !important;
+    }
+    /*7tv close button*/
+    .css-7qgdbp-MuiSvgIcon-root {
          color: #00f4ff !important;
     }
     /*COLOR PALETTE*/
