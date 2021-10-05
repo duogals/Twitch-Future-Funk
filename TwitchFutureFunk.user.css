@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.2.2
+     @version		     1.2.3
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -71,11 +71,24 @@
          color: rgb(0 255 242) !important;
     }
 
+    /*Search to add friends input window's header color*/
+    .cbElyT {
+         background-color: #0f0021 !important;
+    }
+
     /*Search Input Window Drop-down suggestions*/
     .bRzwBe{
           background-color: #0c0026 !important;
     } .gNGabF {
          background-color: #0c0026 !important;
+    } .eosarb {
+         background-color: #0c0026 !important;
+    } .bNeqlg { /*Outer element behind the drow-down suggestions*/
+         background-color: #0c0026 !important;
+    } .elbWoi { /*Suggestion text*/
+         color: #00f4ff !important;
+    } .search-item__icon { /*Magnifyer icon*/
+         color: #c000ff !important;
     }
 
     /* COLORS FOR BUTTONS SUCH AS: FOLLOWING, BROWSE, ESPORTS, AND MUSIC */
@@ -177,11 +190,15 @@
          background-color: #0c0026 !important;
     } .fSaGbE {
          background-color: #0c0026 !important;
+    } .dSSee {
+         background-color: #0c0026 !important;
     }
     /* BACKGROUND COLOR */
     /* TEXT COLOR FOR 'STREAM CHAT' */
      .tw-c-text-alt {
          color: rgb(0 221 255) !important;
+    } .gwuOHV {
+         color: #00f4ff !important;
     }
     .tw-c-background-alt {
          background-color: #efeff1!important;
@@ -220,7 +237,7 @@
     } .bttv-emotes-module__header-UloL0 { /*'Frequently used' and '[Channel-name] Channel' headers*/
          background-color: #240045 !important; 
     } .bttv-sidebar-module__sidebar-D8CvQ { /*Left sidebar*/
-         background-color: #340045 !important;
+         background-color: #0e0121 !important;
     } .bttv-sidebar-module__active-EqStd { /*Left sidebar active module*/
          background-color: #41027c !important;
     } .bttv-rs-input-group.bttv-rs-input-group-inside .bttv-rs-input { /*Input window*/
@@ -236,6 +253,10 @@
          color: #00d9fb !important;
     } .bttv-rs-btn-link {
          color: #00d9fb !important;
+    } .bttv-rs-nav-subtle.bttv-rs-nav-vertical, .bttv-rs-nav-waterline { /*Scroll color*/
+         background: #00f4ff !important;
+    } .bttv-rs-btn-subtle:hover { /*Close button on hover*/
+         background: #6800fd !important;
     }
     /* TTV SPLIT CHAT COLOR */
      .tw-root--theme-dark .chat-line__message.bttv-split-chat-alt-bg, .tw-root--theme-dark .vod-message.bttv-split-chat-alt-bg {
@@ -336,6 +357,7 @@
     }
     .tw-select-button {
          color: #05edfb;
+         background-color: #8a10fe !important;
     }
     element.style {
          color: #06f5ff;
@@ -503,6 +525,11 @@
     } .gJbMyx {
          background-color: #0c0026 !important;
     }
+
+    /*'Following' & 'Browse' button colors*/
+    .dwFGfy {
+         color: #00f4ff !important;
+    }
     
     /*Profile Picture background on the top right of the navigation bar*/
     .hDxvGD {
@@ -511,6 +538,8 @@
          background-color: #0c002600 !important;
     } .fJapS {
            background-color: #0c002600 !important;
+    } .dMTOhJ {
+         background: none !important;
     }
     
     /*Friends activity status, Followed channels category text, and new videos on the left navigator bar.*/
@@ -536,15 +565,27 @@
          color: #04dbff !important;
     } .cTGYGP {
          color: #04dbff !important;
+    } .iBiTfY {
+         color: #04dbff !important;
+    } .hSTXRs {
+         color: #d800ff !important;
     }
     
-    /*Followed Channels Viewer Count and */
+    /*Followed Channels Viewer Count and activity*/
     .cbThWs {
          color: #f66bff  !important;
     } .jxsNUG {
          color: #04dbff !important;
     } .gdgOmq {
          color: #04dbff !important;
+    } .gYwlvg {
+         color: #00fff3 !important;
+    } .itAETt {
+         color: #00fff3 !important;
+    } 
+    /*Followed channels, Online Friends, and Recommended Channels on-hover color*/
+    .side-nav-card__link:hover {
+         background-color: #0c023b !important;
     }
     
     /*Get Bits button*/
@@ -598,6 +639,10 @@
          background-color: #110035  !important;
     } .ePiSwt {
          background-color: #080035 !important;
+    } .kHcLht { /*'Online', 'Share My Activity', and 'Dark Theme' text*/
+         color: #00f4ff !important;
+    } .lgtHpz { /*Text for the rest of it*/
+         /*Changes also chat text*/
     }
 
     /*Dropdown menu for Notifications, Prime Loot, Whispers*/
@@ -630,6 +675,15 @@
      }
     .oHwVV::after {
          background-color: #04dbff !important;
+    } .ScToggleInput-sc-796zbf-1:checked {
+         border-color: #00f4ff !important;
+         background-color: #0f0021 !important;
+    }
+    /*Untoggled Dark Theme toggles*/
+    .ObwAb {
+         border-color: #00f4ff !important;
+    } .ObwAb::after {
+         background-color: #00f4ff !important;
     }
 
     /*Primeloot notification count*/
@@ -1171,6 +1225,12 @@
          background-color: #0c0026 !important;
     }
 
+    /*FFZ Notifcation*/
+    .ffz-top-nav, .tw-pill {
+         background-color: #8a10fe !important;
+         color: #00f4ff !important;
+    }
+
     /*Connecting to Chat*/
     .dDeHGy {
          background-color: #0c0026 !important;
@@ -1212,6 +1272,13 @@
     .css-7qgdbp-MuiSvgIcon-root {
          color: #00f4ff !important;
     }
+
+    /*@ing unfold navigation menu*/
+    .eIEdl {
+         background: #0e0121 !important;
+         color: #00f4ff !important;
+    }
+
     /*COLOR PALETTE*/
     .colorpallete {
      color: #0c0026
