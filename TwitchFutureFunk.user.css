@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.2.3
+     @version		     1.2.4
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -109,7 +109,7 @@
     }
     /* DarkTheme */
      .tw-root--theme-dark .navigation-link {
-         color: rgb(201 8 255) !important;
+         color: #00f4ff !important;
     }
 
     /*============EVERYTHING LEFT NAVIGATION BAR BEGINS============*/
@@ -1226,7 +1226,7 @@
     }
 
     /*FFZ Notifcation*/
-    .ffz-top-nav, .tw-pill {
+    .tw-pill {
          background-color: #8a10fe !important;
          color: #00f4ff !important;
     }
