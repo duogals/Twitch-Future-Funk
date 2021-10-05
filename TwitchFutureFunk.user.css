@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.2.1
+     @version		     1.2.2
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -15,22 +15,22 @@
     
     /* BODY COLOR */
      body {
-         background-color: #0b0024;
+         background-color: #0b0024 !important;
          color: #ffffff;
          font-family: Roobert, Helvetica Neue, Helvetica, Arial, sans-serif!important;
     }
     /* BODY DARK THEME COLOR */
      .tw-root--theme-dark body {
-         background-color: #0d0021;
+         background-color: #0d0021 !important;
     }
     /* Frontpage Carousel Colors */
      .carousel-metadata {
-         background: #1a002f;
+         background: #1a002f !important;
          cursor: auto;
          width: 22rem;
     }
     .carousel-metadata--fadeout {
-         background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, hsl(285deg 93% 48% / 90%) 75%, #ba19f5 80%, #f600ff);
+         background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, hsl(285deg 93% 48% / 90%) 75%, #ba19f5 80%, #f600ff) !important;
          height: 5rem;
     }
     /* BASE COLORS FOR NAVIGATOR. INCLUDES BUTTON COLOR FOR FOLLOW/UNFOLLOW AND TURN NOTIFICATIONS ON/OFF */
@@ -51,24 +51,24 @@
     }
     /* COLOR FOR BUTTONS SUCH AS PRIME LOOT, NOTIFICATIONS, AND WHISPERS */
      .tw-button-icon {
-         background-color: transparent;
-         color: rgb(215 25 255);
+         background-color: transparent !important;
+         color: rgb(215 25 255) !important;
     }
     /* MAGNIFIER BUTTON */
      .tw-core-button--secondary.tw-core-button--disabled {
-         background-color: rgb(76 2 125);
-         color: rgb(206 32 255);
+         background-color: rgb(76 2 125) !important;
+         color: rgb(206 32 255) !important;
     }
     /* SEARCH INPUT WINDOW  */
      .tw-input {
-         background-color: rgb(18 3 85);
-         border-color: rgb(140 0 249);
-         color: rgb(0 255 242);
+         background-color: rgb(18 3 85) !important;
+         border-color: rgb(140 0 249) !important;
+         color: rgb(0 255 242) !important;
     }
     .tw-input:focus {
-         background-color: rgb(18 3 85);
-         border-color: rgb(140 0 249);
-         color: rgb(0 255 242);
+         background-color: rgb(18 3 85) !important;
+         border-color: rgb(140 0 249) !important;
+         color: rgb(0 255 242) !important;
     }
 
     /*Search Input Window Drop-down suggestions*/
@@ -89,14 +89,14 @@
     /* DARK THEME ?*/
      .navigation-link {
          align-items: center;
-         color: #53006a;
+         color: #53006a !important;
          display: flex;
          text-align: center;
          white-space: nowrap;
     }
     /* DarkTheme */
      .tw-root--theme-dark .navigation-link {
-         color: rgb(201 8 255);
+         color: rgb(201 8 255) !important;
     }
 
     /*============EVERYTHING LEFT NAVIGATION BAR BEGINS============*/
@@ -106,7 +106,7 @@
     /*========LOGGED IN BEGINS========*/
     /* LEFT SIDE NAV COLOR OLD */
      .side-nav__overlay-wrapper {
-         background-color: #12012a;
+         background-color: #12012a !important;
     }
     /*========LOGGED IN ENDS========*/
     /*========LOGGED OUT BEGINS========*/
@@ -125,9 +125,9 @@
          color: rgb(202 13 255) !important;
     }
     .tw-root--theme-dark .side-nav__overlay-wrapper {
-         background-color: #1b0136;
+         background-color: #1b0136 !important;
     } .hjdJIE {
-          background-color: #1b0136;
+          background-color: #1b0136 !important;
     }
     /*============EVERYTHING LEFT NAVIGATION BAR ENDS============*/
 
@@ -135,20 +135,20 @@
     /* INNER ICON COLOR FOR: FOLLOW/UNFOLLOW AND TURN NOTIFICATIONS ON/OFF */
     .tw-core-button--secondary {
         background-color: #0e0121;
-        color: rgb(161 0 233);
+        color: rgb(161 0 233) !important;
     }
     /* COLLOR FOR 'Welcome to the chat room!' MESSAGE AND MODERATION ACTION MESSAGES */
      .chat-line__moderation, .chat-line__status {
-         color: rgb(213 0 232);
+         color: rgb(213 0 232) !important;
     }
     /* For Dark Mode */
      .tw-root--theme-dark .chat-line__moderation, .tw-root--theme-dark .chat-line__status {
-         color: rgb(213 0 232);
+         color: rgb(213 0 232) !important;
     }
     /* PRIMARY COLOR FOR BUTTONS SUCH AS: SUBSCRIPTE, GIFT A SUB, AND CHAT */
      .tw-core-button--primary {
-         background-color: #6700cc;
-         color: rgb(5 220 253);
+         background-color: #6700cc !important;
+         color: rgb(5 220 253) !important;
     } .ksFrFH {
          background-color: #8a10fe !important;
     }
@@ -161,7 +161,7 @@
     }
     /* BACKGROUND COLOR FOR EVERYTHING BEHIND CHANNEL NAME, STREAM TITEL, CHANNEL DISCRIPTION */
      .channel-root__info .channel-info-content {
-         background-color: rgb(14 1 33);
+         background-color: rgb(14 1 33) !important;
     } .jJUXXg {
          background-color: #0e0121 !important;
     }
@@ -188,28 +188,54 @@
          background-color: #0c0026!important;
     }
     .chat-viewers__pane {
-         background: #0c0026;
-         color: #00d9fb;
+         background: #0c0026 !important;
+         color: #00d9fb !important;
     }
     /* BETTER TWITCH TV EXTENSION'S EXTRA EMOTE BUTTON REPLACER */
      #emote-menu-button {
          background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
+    } .bttv-legacy-button-module__button-i_OhF {
+         background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
     }
-    /* BETTER TWITCH TV EXENSION'S EMOTE-MENU */
+    /* BETTER TWITCH TV EXENTSION'S EMOTE-MENU */
      .emote-menu {
-         background-color: rgb(24 1 40);
-    }
+         background-color: rgb(24 1 40) !important;
+    } 
     .emote-menu .header-info {
-         border-top-color: rgb(185 10 255);
-         box-shadow: #0778ff 0px 1px 0px inset;
-         background-image: linear-gradient(to top, #0d0013, #490ec4);
-         color: rgb(0 233 255);
+         border-top-color: rgb(185 10 255) !important;
+         box-shadow: #0778ff 0px 1px 0px inset !important;
+         background-image: linear-gradient(to top, #0d0013, #490ec4) !important;
+         color: rgb(0 233 255) !important;
     }
     .emote-menu .footer {
-         border-top-color: rgb(11 172 255);
-         box-shadow: rgb(0 170 255 / 0%) 0px 1px 0px inset;
+         border-top-color: rgb(11 172 255) !important;
+         box-shadow: rgb(0 170 255 / 0%) 0px 1px 0px inset !important;
          background-image: initial;
          background-color: initial;
+    } 
+
+    /* NEW BETTER TWITCH TV EXTENSION'S EMOTE-MENU */
+    .bttv-rs-popover-full .bttv-rs-popover-content { /*Background-color for emotes*/
+         background-color: #0e0121 !important;
+    } .bttv-emotes-module__header-UloL0 { /*'Frequently used' and '[Channel-name] Channel' headers*/
+         background-color: #240045 !important; 
+    } .bttv-sidebar-module__sidebar-D8CvQ { /*Left sidebar*/
+         background-color: #340045 !important;
+    } .bttv-sidebar-module__active-EqStd { /*Left sidebar active module*/
+         background-color: #41027c !important;
+    } .bttv-rs-input-group.bttv-rs-input-group-inside .bttv-rs-input { /*Input window*/
+         background-color: #120355 !important; 
+    } .bttv-emotes-module__headerText-MJbMy { /*Header text*/
+         color: #00d9fb !important;
+    } .bttv-preview-module__preview-_Xc7L { /*Preview text*/
+         color: #00d9fb !important;
+    } svg:not(:root).svg-inline--fa { /*Icon colors*/
+         color: #00d9fb !important;
+    } .bttv-Tip-module__tip-__MRM { /*Protip module*/
+         background-color: #710dd0 !important;
+         color: #00d9fb !important;
+    } .bttv-rs-btn-link {
+         color: #00d9fb !important;
     }
     /* TTV SPLIT CHAT COLOR */
      .tw-root--theme-dark .chat-line__message.bttv-split-chat-alt-bg, .tw-root--theme-dark .vod-message.bttv-split-chat-alt-bg {
