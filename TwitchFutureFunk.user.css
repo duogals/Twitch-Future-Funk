@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     2.0.0
+     @version		     2.0.1
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -346,6 +346,14 @@
      .tw-root--theme-dark .chat-viewers-list__button {
          color: #02fffe!important;
      }
+
+     /*Dark Browse Game page banner*/
+     .tw-root--theme-dark .directory-header-new__banner-cover {
+          background: linear-gradient(
+          6deg,#0e026a38,rgb(37 4 114)),linear-gradient(
+          73deg,#0e0e10,rgb(0 134 212));
+          content: "";
+     }
      
      /*---------------------------------------------------------------------------*/
      /*Light Mode*/
@@ -538,6 +546,14 @@
      /*Light 'Users in chat' channel names*/
      .tw-root--theme-light .chat-viewers-list__button {
          color: #02fffe !important;
+     }
+
+     /*Light Browse Game page banner*/
+     .tw-root--theme-light .directory-header-new__banner-cover {
+          background: linear-gradient(
+          6deg,#0e026a38,rgb(37 4 114)),linear-gradient(
+          73deg,#0e0e10,rgb(0 134 212));
+          content: "";
      }
  
 

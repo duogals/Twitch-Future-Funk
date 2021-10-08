@@ -3,17 +3,15 @@
 
 Future Funk css style for Twitch.tv.
 
-As of now, it should only work properly with dark mode enabled. 
-If you haven't enabled dark mode for Twitch; you're going to have to do that.
-Also, the code is sort of messy because I couldn't be bothered to fix it with the state of userstyle.org, but now I may clean it up.
+Gives Twitch.tv a Future Funk Theme. Finally works both logged-in and logged-out, and also with the Dark-theme enabled and disabled. Code has been completely overhauled and fixed. The code should no longer break as frequently as it did with every Twitch update.
 
-With recent updates done to Twitch this code will not 100% cover everything, but I'm working on it.
+Works also with FrankerFaceZ and BTTV extensions!
 
 ## Installation
 Install the [Stylus extension](https://add0n.com/stylus.html) to install the UserCSS.
 
 * Click the 'Install directly with Stylus' button or [click here.](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css).
-* You can also find this UserCCS [here](https://userstyles.org/styles/189576/twitch-future-funk), but since userstyles.org is such a slow website; versions of the UserCSS will not be as frequently updated there. I highly suggest installing it through the other options. 
+* You can also find this UserCCS [here](https://userstyles.org/styles/189576/twitch-future-funk), userstyles.org has in the recent times been pretty fast and responding.
 
 ## Preview
 ### Front Pape
@@ -26,10 +24,7 @@ Install the [Stylus extension](https://add0n.com/stylus.html) to install the Use
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Channel_StreamPage.jpg)
 
 ### Game Page
-![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Game_Page.jpg)
-
-### BTTV
-![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/BTTV_Emote_Menu.png)
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Game_Page.png)
 
 ### Browse Page
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_BrowsePage.jpg)
