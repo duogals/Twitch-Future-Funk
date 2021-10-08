@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     1.2.4
+     @version		     2.0.0
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,1282 +10,535 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-10-05
+     @Last-Updated       2021-10-08
     ==/UserStyle== */
     
-    /* BODY COLOR */
-     body {
-         background-color: #0b0024 !important;
-         color: #ffffff;
-         font-family: Roobert, Helvetica Neue, Helvetica, Arial, sans-serif!important;
-    }
-    /* BODY DARK THEME COLOR */
-     .tw-root--theme-dark body {
-         background-color: #0d0021 !important;
-    }
-    /* Frontpage Carousel Colors */
-     .carousel-metadata {
-         background: #1a002f !important;
-         cursor: auto;
-         width: 22rem;
-    }
-    .carousel-metadata--fadeout {
-         background: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 0, hsl(285deg 93% 48% / 90%) 75%, #ba19f5 80%, #f600ff) !important;
-         height: 5rem;
-    }
-    /* BASE COLORS FOR NAVIGATOR. INCLUDES BUTTON COLOR FOR FOLLOW/UNFOLLOW AND TURN NOTIFICATIONS ON/OFF */
-     .tw-c-background-base {
-         background-color: rgb(12 0 38) !important;
-    } .fEINUM {
-         background-color: #6f00d9 !important;
-         color: #00f4ff !important;
-    } .fEINUM:hover {
-         background-color: #8304fa !important;
-    } .iUbpmZ {
-         color: #00f4ff !important;
-    } .ctCEIa {
-         background-color: #8304fa !important;
-         color: #00f4ff !important;
-    } .bneAWp {
-         color: #00f4ff;
-    }
-    /* COLOR FOR BUTTONS SUCH AS PRIME LOOT, NOTIFICATIONS, AND WHISPERS */
-     .tw-button-icon {
-         background-color: transparent !important;
-         color: rgb(215 25 255) !important;
-    }
-    /* MAGNIFIER BUTTON */
-     .tw-core-button--secondary.tw-core-button--disabled {
-         background-color: rgb(76 2 125) !important;
-         color: rgb(206 32 255) !important;
-    }
-    /* SEARCH INPUT WINDOW  */
-     .tw-input {
-         background-color: rgb(18 3 85) !important;
-         border-color: rgb(140 0 249) !important;
-         color: rgb(0 255 242) !important;
-    }
-    .tw-input:focus {
-         background-color: rgb(18 3 85) !important;
-         border-color: rgb(140 0 249) !important;
-         color: rgb(0 255 242) !important;
-    }
-
-    /*Search to add friends input window's header color*/
-    .cbElyT {
-         background-color: #0f0021 !important;
-    }
-
-    /*Search Input Window Drop-down suggestions*/
-    .bRzwBe{
-          background-color: #0c0026 !important;
-    } .gNGabF {
-         background-color: #0c0026 !important;
-    } .eosarb {
-         background-color: #0c0026 !important;
-    } .bNeqlg { /*Outer element behind the drow-down suggestions*/
-         background-color: #0c0026 !important;
-    } .elbWoi { /*Suggestion text*/
-         color: #00f4ff !important;
-    } .search-item__icon { /*Magnifyer icon*/
-         color: #c000ff !important;
-    }
-
-    /* COLORS FOR BUTTONS SUCH AS: FOLLOWING, BROWSE, ESPORTS, AND MUSIC */
-     .navigation-link {
-         align-items: center;
-         color: #00f5ff !important;
-         display: flex;
-         text-align: center;
-         white-space: nowrap;
-    }
-    /* DARK THEME ?*/
-     .navigation-link {
-         align-items: center;
-         color: #53006a !important;
-         display: flex;
-         text-align: center;
-         white-space: nowrap;
-    }
-    /* DarkTheme */
-     .tw-root--theme-dark .navigation-link {
-         color: #00f4ff !important;
-    }
-
-    /*============EVERYTHING LEFT NAVIGATION BAR BEGINS============*/
-    .wshJJ {
-         color: #04dbff  !important;
-    }
-    /*========LOGGED IN BEGINS========*/
-    /* LEFT SIDE NAV COLOR OLD */
-     .side-nav__overlay-wrapper {
-         background-color: #12012a !important;
-    }
-    /*========LOGGED IN ENDS========*/
-    /*========LOGGED OUT BEGINS========*/
-    /* LEFT SIDE NAV COLOR NEW*/
-    .ZkZgD {
-         background-color: #12012a  !important;
-    }
-    /*'Join the Twitch community!' card*/
-    .VFufG {
-         background-color: #25004d  !important;
-    }
-    /*========LOGGED OUT ENDS========*/
-
-    /* LEFT SIDEBAR NAVIGATOR BUTTONS: FOLLOWED CHANNELS, RECOMMENDED CHANNELS, AND ONLINE FRIENDS */
-     .tw-c-text-alt-2 {
-         color: rgb(202 13 255) !important;
-    }
-    .tw-root--theme-dark .side-nav__overlay-wrapper {
-         background-color: #1b0136 !important;
-    } .hjdJIE {
-          background-color: #1b0136 !important;
-    }
-    /*============EVERYTHING LEFT NAVIGATION BAR ENDS============*/
-
-
-    /* INNER ICON COLOR FOR: FOLLOW/UNFOLLOW AND TURN NOTIFICATIONS ON/OFF */
-    .tw-core-button--secondary {
-        background-color: #0e0121;
-        color: rgb(161 0 233) !important;
-    }
-    /* COLLOR FOR 'Welcome to the chat room!' MESSAGE AND MODERATION ACTION MESSAGES */
-     .chat-line__moderation, .chat-line__status {
-         color: rgb(213 0 232) !important;
-    }
-    /* For Dark Mode */
-     .tw-root--theme-dark .chat-line__moderation, .tw-root--theme-dark .chat-line__status {
-         color: rgb(213 0 232) !important;
-    }
-    /* PRIMARY COLOR FOR BUTTONS SUCH AS: SUBSCRIPTE, GIFT A SUB, AND CHAT */
-     .tw-core-button--primary {
-         background-color: #6700cc !important;
-         color: rgb(5 220 253) !important;
-    } .ksFrFH {
-         background-color: #8a10fe !important;
-    }
-    /* PRIMARY COLOR FOR TEXTS SUCH AS: CHAT TEXT, CHANNEL NAME, STREAM TITEL */
-     .tw-c-text-base {
-         color: rgb(243 233 233) !important;
-    }
-    .home-header-sticky, .home-header-sticky__inner, .home-header-sticky__wrapper {
-         background: #0e0121 !important;
-    }
-    /* BACKGROUND COLOR FOR EVERYTHING BEHIND CHANNEL NAME, STREAM TITEL, CHANNEL DISCRIPTION */
-     .channel-root__info .channel-info-content {
-         background-color: rgb(14 1 33) !important;
-    } .jJUXXg {
-         background-color: #0e0121 !important;
-    }
-
-    /* ABOUT 'USERNAME' CARD*/
-    .debKht {
-         background-color: #0C0026 !important;
-    } .jYFsjp {
-          background-color: #0C0026 !important;
-    } .bcvuwn {
-         background-color: #0c0026 !important;
-    } .jFhqSt {
-         background-color: #0c0026 !important;
-    } .fSaGbE {
-         background-color: #0c0026 !important;
-    } .dSSee {
-         background-color: #0c0026 !important;
-    }
-    /* BACKGROUND COLOR */
-    /* TEXT COLOR FOR 'STREAM CHAT' */
-     .tw-c-text-alt {
-         color: rgb(0 221 255) !important;
-    } .gwuOHV {
-         color: #00f4ff !important;
-    }
-    .tw-c-background-alt {
-         background-color: #efeff1!important;
-         background-color: #0c0026!important;
-    }
-    .chat-viewers__pane {
-         background: #0c0026 !important;
-         color: #00d9fb !important;
-    }
-    /* BETTER TWITCH TV EXTENSION'S EXTRA EMOTE BUTTON REPLACER */
-     #emote-menu-button {
-         background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
-    } .bttv-legacy-button-module__button-i_OhF {
-         background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
-    }
-    /* BETTER TWITCH TV EXENTSION'S EMOTE-MENU */
-     .emote-menu {
-         background-color: rgb(24 1 40) !important;
-    } 
-    .emote-menu .header-info {
-         border-top-color: rgb(185 10 255) !important;
-         box-shadow: #0778ff 0px 1px 0px inset !important;
-         background-image: linear-gradient(to top, #0d0013, #490ec4) !important;
-         color: rgb(0 233 255) !important;
-    }
-    .emote-menu .footer {
-         border-top-color: rgb(11 172 255) !important;
-         box-shadow: rgb(0 170 255 / 0%) 0px 1px 0px inset !important;
-         background-image: initial;
-         background-color: initial;
-    } 
-
-    /* NEW BETTER TWITCH TV EXTENSION'S EMOTE-MENU */
-    .bttv-rs-popover-full .bttv-rs-popover-content { /*Background-color for emotes*/
-         background-color: #0e0121 !important;
-    } .bttv-emotes-module__header-UloL0 { /*'Frequently used' and '[Channel-name] Channel' headers*/
-         background-color: #240045 !important; 
-    } .bttv-sidebar-module__sidebar-D8CvQ { /*Left sidebar*/
-         background-color: #0e0121 !important;
-    } .bttv-sidebar-module__active-EqStd { /*Left sidebar active module*/
-         background-color: #41027c !important;
-    } .bttv-rs-input-group.bttv-rs-input-group-inside .bttv-rs-input { /*Input window*/
-         background-color: #120355 !important; 
-    } .bttv-emotes-module__headerText-MJbMy { /*Header text*/
-         color: #00d9fb !important;
-    } .bttv-preview-module__preview-_Xc7L { /*Preview text*/
-         color: #00d9fb !important;
-    } svg:not(:root).svg-inline--fa { /*Icon colors*/
-         color: #00d9fb !important;
-    } .bttv-Tip-module__tip-__MRM { /*Protip module*/
-         background-color: #710dd0 !important;
-         color: #00d9fb !important;
-    } .bttv-rs-btn-link {
-         color: #00d9fb !important;
-    } .bttv-rs-nav-subtle.bttv-rs-nav-vertical, .bttv-rs-nav-waterline { /*Scroll color*/
-         background: #00f4ff !important;
-    } .bttv-rs-btn-subtle:hover { /*Close button on hover*/
-         background: #6800fd !important;
-    }
-    /* TTV SPLIT CHAT COLOR */
-     .tw-root--theme-dark .chat-line__message.bttv-split-chat-alt-bg, .tw-root--theme-dark .vod-message.bttv-split-chat-alt-bg {
-         background-color: rgb(16 1 29);
-    }
-    /* dark mode */
-     .tw-root--theme-dark .chat-line__timestamp {
-         color: #ffffff;
-    }
-    /* WIthout dark mode */
-     .chat-line__timestamp {
-         color: #ea00ff;
-         margin-right: .5rem;
-    }
-    /* CHAT BASE COLOR */
-     .chat-room {
-         background: #06000b;
-    }
-    .tw-root--theme-dark .chat-room {
-         background: #06000b;
-    }
-    .tw-root--theme-dark .chat-room {
-         background: #0d0017;
-    } .iTySPm {
-         background-color: #0c0026;
-    }
-    /* Input window for chat 'Send a message' */
-     .tw-textarea {
-         background-color: #0f0020 !important;
-         border: var(--border-width-input) solid #012f44 !important;
-         color: #ffffff !important;
-    }
-    /* CHAT MENTION HIGHLIGHT */
-     .mention-fragment--recipient {
-         background-color: #00f4ff;
-         color: #37057e;
-    }
-    .tw-root--theme-dark .mention-fragment--recipient {
-         background-color: #00f4ff;
-         color: #37057e;
-    }
-    /* CHAT TIMESTAMPS */
-     .tw-root--theme-dark .chat-room {
-         background: #06000b;
-    }
-    .tw-root--theme-dark .chat-line__timestamp {
-         color: #ffffff;
-    }
-    /* SCREEN CSS */
-    
-    /* Paused player overlay color */
-     .player-overlay-background--darkness-5 {
-         background: none;
-    }
-    /* MOST RECENT VIDEO  */
-     .tw-root--theme-dark .chat-room {
-         background: #06000b;
-    }
-    element.style {
-         background-color: rgb(22 0 35);
-    }
-    .tw-root--theme-dark .scrollable-area .simplebar-track .simplebar-scrollbar {
-         background: #03fff4;
-    }
-    /* TAGS */
+    /*Body*/
+    /*Dark Mode Body*/    
+    .tw-root--theme-dark body {
+     background-color: #0d0021 !important;
+     color: #f9e8ff !important;
+     }
+     /*Light Mode Body*/
+     .tw-root--theme-light body {
+     background-color: #0d0021 !important;
+     color: #f9e8ff !important;
+     }
+     
+     /*Dark & Light*/
+     /*Tags*/
      .tw-tag {
-         background-color: #290038;
-         color: rgba(0, 0, 0, .7);
-         color: #02fffe;
-    }
-    /* HEADER BANNER COVER COLOR SUCH AS ON /game/Music page */
-     .directory-header-new__banner-cover {
-         background: linear-gradient(0deg, #500373, rgb(3 3 255 / 0.25)), linear-gradient(90deg, #03ddff, rgb(246 0 255 / 0.25));
-         content:"";
-    }
-    /* FOR DARK THEME */
-     .tw-root--theme-dark .directory-header-new__banner-cover {
-         background: linear-gradient(0deg, #500373, rgb(3 3 255 / 0.25)), linear-gradient(90deg, #03ddff, rgb(246 0 255 / 0.25));
-         content:"";
-    }
-    .tw-image-avatar {
-    
-    }
-    .tw-border-t {
-         border-top: 1px solid rgba(0, 0, 0, .1)!important;
-         border-top: var(--border-width-default) solid hsl(191deg 100% 50%)!important;
-    }
-    .tw-border-l {
-         border-left: 1px solid rgba(0, 0, 0, .1)!important;
-         border-left: var(--border-width-default) solid hsl(193deg 100% 50% / 10%)!important;
-    }
-    .chat-line__message.bttv-split-chat-alt-bg, .vod-message.bttv-split-chat-alt-bg {
-         background-color: #19004f;
-    }
-    .tw-form-label {
-         color: #18181b;
-         color: #05f5ff;
-    }
-    .tw-select-button {
-         color: #05edfb;
-         background-color: #8a10fe !important;
-    }
-    element.style {
-         color: #06f5ff;
-    }
-    
-    /*NEW CHANGES*/
-    
-    /*Follow and notification buttons*/
-    .KNLSb {
-         background-color: #6f00d9 !important;
-         }
-    
-    /*Follow and notification icons*/
-    .ivDpGz {
-         color: #04dbff !important;
-    }
-    
-    /*Subscribe and Gift a Sub button and icon*/
-    .jbpuQw {
-         background-color: #6f00d9 !important;
-         color: #04dbff !important;
-    } .jGyqKK {
-          background-color: #6f00d9 !important;
-          color: #04dbff !important;       
-    } .euIPFy {
-         background-color: #6f00d9 !important;
-         color: #04dbff !important;
-    }
-    /*Gift a Sub pop-up*/
-    .support-panel {
-         background-color: #0c0026 !important;
-    } .eIHNAz {
-         background-color: #0e0121 !important;
-    } /*Tier 1/2/3 Gifts button*/
-    .UvsjL {
-         background-color: #7100db !important;
-         border-color: #7100db !important;
-         color: #00f4ff !important;
-    }
-    
-    /*User notice chat message for subscribe anniversaries*/
-    .qfuHB {
-         background-color: #25004d !important;
-    } .bVXJYZ {
-         background-color: #0c0026 !important;
-    } .gKMqzd {
-         background-color: #0c0026;
-    }
-    
-    /*Channel Leaderboard header, where bits and gifted sub leaders are*/
-    .goGBPp {
-         background-color: #0c0026 !important;
-    } .gVXTvb {
-         background-color: #0c0026 !important;
-    } .jcdoPm {
-         background-color: #0c0026 !important;
-    } .kbaNko {
-         background-color: #0c0026 !important;
-    } .izbNhv {
-         background-color: #0c0026 !important;
-    }
-    
-    /*Extended Channel Leaderboard*/
-    .drMKSw {
-         background-color: #0c0026 !important;
-    } .eFAYYl {
-         background-color: #0c0026 !important;
-         color: #00d9fb !important;
-    } .kVnYoS {
-         background-color: #0c0026 !important;
-         color: #00d9fb !important
-    }
-    
-    /*Extended leaderboard minimize button*/
-    .dhMLHp {
-         background-color: #04dbff !important;
-    }
-    
-    /*'STREAM CHAT' header*/
-    .jGtCgK {
-         background-color: #0c0026 !important;
-    } .hWwloK {
-          background-color: #0c0026 !important;
-    } .jfOhQh {
-         background-color: #0c0026 !important;
-    } .coTOOz {
-         background-color: #0c0026 !important;
-    } .gnaiJY {
-         background-color: #0c0026 !important;
-    }
-    /*'STREAM CHAT' text*/
-    .hQRdId {
-         color: #04dbff !important;
-    } .iniZHW {
-         color: #04dbff !important;
-    }
-    
-    /*'Chat on Videos' header*/
-    .tw-root--theme-dark .video-chat__header {
-         background-color: #0c0026 !important;
-         color: #04dbff !important;
-    } .gSBWbc {
-         background-color: #08001a !important;
-    }
-     /*==========General Icons Begins==========*/
-     /*=======LOGGED IN BEGINS========*/
-    /*Icons such as Inbox, Whisper, Bits, New Prime Loot, Share, Emotes Chat settings etc.*/
-    .hSxEIC {
-         color: #09effa !important;
-    }
-     /*'Click to claim a bonus!' button, basically channel points chest*/
-    .VGQNd {
-     background-color: #6f00d9 !important;
-     color: #09effa !important;
-     } .jwRWhW {
-          background-color: #6f00d9 !important;
-          color: #09effa !important;
-     } .jwRWhW:hover {
-          background-color: #8b0fff !important;
-          color: #09effa !important;
-     } .fERWGf {
-          background-color: #6f00d9 !important;
-     } .fERWGf:hover {
-          background-color: #8b0fff !important;
-     } .hERNRa {
-          background-color: #6f00d9 !important;
-     } .hERNRa:hover {
-          background-color: #8b0fff !important;
+         background-color: #290038 !important;
+         color: #02fffe !important;
+     }     .tw-tag:hover { /*On hover*/
+         background-color: #45005e !important;
+         color: #02fffe !important;
      }
-     /*=======LOGGED IN ENDS========*/
-     /*=======LOGGED OUT BEGINS========*/
-     /*General icons*/
-    .cMQeyU{
-          color: #09effa !important;
-    }
-    /*Follow heart and text*/
-    .xsINH {
-         color: #04dbff !important;
-    }
-     /*=======LOGGED OUT ENDS========*/
-     /*==========General Icons Ends==========*/
-
-    
-    /*Default Channel Points icon*/
-    .gShCOc {
-         color: #09effa !important;
-    } .jDaxrs {
-          color: #09effa !important;
-    }
-    
-    /*Channel Points text*/
-    .GBpnX {
-         color: #09effa !important; 
-    } .iTEzQy {
-         color: #09effa !important;
-    }
-    
-    /*Top Navigation bar with buttons such as: 'Following', 'Browse', and the search bar.*/
-    .cPVNOL {
-         background-color: #0c0026 !important;
-    } .cmgjoE {
-         background-color: #0c0026 !important;
-    } .kgPegi {
-         background-color: #0c0026 !important;
-    } .gJbMyx {
-         background-color: #0c0026 !important;
-    }
-
-    /*'Following' & 'Browse' button colors*/
-    .dwFGfy {
-         color: #00f4ff !important;
-    }
-    
-    /*Profile Picture background on the top right of the navigation bar*/
-    .hDxvGD {
-         background-color: #0c0026 !important;
-    } .jeUuuU {
-         background-color: #0c002600 !important;
-    } .fJapS {
-           background-color: #0c002600 !important;
-    } .dMTOhJ {
-         background: none !important;
-    }
-    
-    /*Friends activity status, Followed channels category text, and new videos on the left navigator bar.*/
-    .cbThWs {
-         color: #f66bff !important;
-    }
-    .cheVcL {
-          background-color: #6100bd !important;
-    } .iFbaGf {
-         color: #f66bff !important;
-    } .bOwyAL {
-         color: #f66bff !important;
-    }
-    
-    /*Followed Channels, and Online Friends usernames*/
-    .eAXpco {
-         color: #04dbff !important;
-    } .bKZECs {
-         color: #04dbff !important;
-    } .hhDlEz {
-         color: #04dbff !important;
-    } .cqJCFf {
-         color: #04dbff !important;
-    } .cTGYGP {
-         color: #04dbff !important;
-    } .iBiTfY {
-         color: #04dbff !important;
-    } .hSTXRs {
-         color: #d800ff !important;
-    }
-    
-    /*Followed Channels Viewer Count and activity*/
-    .cbThWs {
-         color: #f66bff  !important;
-    } .jxsNUG {
-         color: #04dbff !important;
-    } .gdgOmq {
-         color: #04dbff !important;
-    } .gYwlvg {
-         color: #00fff3 !important;
-    } .itAETt {
-         color: #00fff3 !important;
-    } 
-    /*Followed channels, Online Friends, and Recommended Channels on-hover color*/
-    .side-nav-card__link:hover {
-         background-color: #0c023b !important;
-    }
-    
-    /*Get Bits button*/
-    .iDPpfj {
-         background-color: #6f00d9 !important;
-         color: #04dbff !important;
-    } .cgBRJo {
-         background-color: #0c0026 !important;
-         color: #04dbff !important;
-    }
-    .iDPpfj:hover {
-         background-color: #8a10fe !important;
-    } .cgBRJo:hover {
-         background-color: #160146 !important;
-    } .cAHINR {
-         background-color: #6f00d9 !important;
-    } .cAHINR:hover {
-         background-color: #8a10fe !important;
-    } .fSetzA {
-         background-color: #8a10fe !important;
-         color: #04dbff !important;
-    } .fSetzA:hover {
-         background-color: #7810da !important;
-         color: #02b6d6 !important;
-    }
-    
-    .highlight {
-         background-color: #25004d !important;
-    }
-    
-    /*Magnifyer icon and search button on top navigator bar*/
-    .fMfcuC {
-         background-color: #3500a7 !important;
-         color: #04dbff !important;
-    }
-    /*=====EVERYTHING DROPDOWN MENU PROFILE PICTURE=======*/
-    /*Status such as Offline, Online, and away*/
-    .presence-text {
-         color: #a749fd !important;
-    }
-    /*Status dot Offline*/
-    .jrLemK {
-         background-color: #6f44a9;
-    }
-    /*Status dot Online*/
-    .gFaMzg {
-         background-color: #00eaf5 !important;
-    }
-    /*Dropdown menu from Profile Picture button*/
-    .bXPPWD {
-         background-color: #110035  !important;
-    } .ePiSwt {
-         background-color: #080035 !important;
-    } .kHcLht { /*'Online', 'Share My Activity', and 'Dark Theme' text*/
-         color: #00f4ff !important;
-    } .lgtHpz { /*Text for the rest of it*/
-         /*Changes also chat text*/
-    }
-
-    /*Dropdown menu for Notifications, Prime Loot, Whispers*/
-    .lflRWS {
-         background-color: #080035 !important;
-    } 
-    /*'MOST RECENT' text inside the notifications dropdown menu*/
-    .center-window__section-header {
-         color: #00eaf5 !important;
-    }
-    /*Dropdown menu text*/
-    .llxjvH {
-         color: #04dbff  !important;
-    }
-    .gzOMdE {
-         color: #04dbff  !important;
-    }
-    .eEFwBT {
-         color: #04dbff  !important;
-    }
-    .dENtHr {
-         color: #d6c929  !important;
-    }
-    /*Toggle button inside profile dropdown menu disabled*/
-    .oHwVV {
-         background:  #6f00d9 !important;
-         border-color: #00ddff !important;
-    }.oHwVV:hover {
-     border-color: #00ddff !important;
+     /*Button Color Covers 'Login', and Magnifyer button*/
+     .fSetzA {
+         background-color: #7a00ff !important;
+     }     .fSetzA:hover {
+         background-color: #6800d9 !important;
      }
-    .oHwVV::after {
-         background-color: #04dbff !important;
-    } .ScToggleInput-sc-796zbf-1:checked {
-         border-color: #00f4ff !important;
-         background-color: #0f0021 !important;
-    }
-    /*Untoggled Dark Theme toggles*/
-    .ObwAb {
-         border-color: #00f4ff !important;
-    } .ObwAb::after {
-         background-color: #00f4ff !important;
-    }
-
-    /*Primeloot notification count*/
-    .ibisXf {
-         background-color: #6f00d9 !important;
-         color: #04dbff !important;
-    }
-    
-    /*Bottom left searchbar background on left navigator menu*/
-    .eqpKSV {
-         background-color: #1b0136 !important;
-    } .higrem {
-         border-top: #00e1ff00 !important;
-         background-color: #0c0026 !important;
-    } .jlNkvg {
-         background-color: #0c0026 !important;
-         border-top: #0c0026 !important;
-    }
-    
-    /*Chat Settings pop-up menu*/
-    .ixPmjS {
-         background-color: #0c0026  !important;
-         color: #04dbff  !important;
-    } .iZptsD {
-         background-color: #0c0026 !important;
-         color: #04dbff !important; 
-    } .efNzbE {
-         background-color: #0c0026 !important;
-         color: #04dbff !important;
-    } .gmGoNt {
-         background-color: #0c0026 !important;
-         color: #04dbff !important;
-    }
-
-    
-    /*Top header in Chat Settings pop-up menu*/
-    .yjoEf {
-         background-color: #0c0026  !important;
-    } .dzPpsq {
-         background-color: #0c0026 !important;
-    }
-    /*Top header text in Chat Settings pop-up menu*/
-    .chUZlO {
-         color: #04dbff  !important;
-    }
-    .dVuSXW {
-         color: #7207ff  !important;
-    }
-    .tw-c-text-alt-2 {
-         color: #7207ff !important;
-    }
-    
-    /*Purchase Bits dropdown menu*/ 
-    .iTdjRF {
-         background-color: #0c0026  !important;
-    } .dPYmpj {
-         background-color: #0c0026 !important; 
-         color: #00f4ff !important;
-    } .fAphVn {
-         color: #00f4ff !important;
-    } .hLogbv {
-         color: #00f4ff !important;
-    }
-    
-    /*Whispers dropdown menu*/
-    .rWdm {
-         border-bottom: #00aeff !important;
-    }
-    .rWdm:hover {
-         background-color: #25004d !important;
-    }
-    
-    .whispers-list-item:hover .whispers-list-item__archive, .whispers-list-item:hover .whispers-list-item__visible-icons {
-         background-color: #0c0026 !important;
-         border-bottom-color: #04dbff !important;
-    }
-    
-    
-    .tw-root--theme-dark .whispers-list-item--selected .whispers-list-item__archive-button, .tw-root--theme-dark .whispers-list-item:hover .whispers-list-item__archive-button {
-         background-color: #0c0026 !important;
-    }
-
-    .tw-root--theme-dark .whispers-list-item__archive {
-         background-color: #0c0026 !important;
-    }
-    
-    .jKbvEr {
-         border-bottom-color: #04dbff !important;
-         background-color: #0c0026 !important;
-    } 
-
-    /*'Search for People' background*/
-    .czrbwK {
-         background-color: #0c0026 !important;
-    }
-    /*Whisper window*/
-    .hLalHI {
-         background-color: #0c0026 !important;
-    }
-    /*========CHANNEL PAGE BEGINS=========*/
-    /*LOGGED IN BEGINS*/
-    /*Channel info toggled*/
-    .hVRTjq {
-         background-color: #25004d !important;
-    }
-    /*channel status info offline (the offline/online thing above the username*/
-    .channel-status-info--offline, .channel-status-info--private {
-         background: #6f00d9 !important;
-         color: #04dbff !important;
-    }
-    /*'is offline.' text*/
-    .jBeHoW {
-         color: #04dbff !important;
-    }
-
-    /*=====PLAYER=====*/
-    /*Player settings window*/
-    .kjsYAe {
-         background-color: #0c0026  !important;
-    } .dRyFQA {
-         background-color: #0c0026 !important;
-         color: #04dbff !important;
-    }
-
-
-    /*==USERS IN CHAT==*/
-    /*Top header in 'users in chat'*/
-    .fBfwWB {
-          background-color: #0c0026  !important;
-    } .jBYLcw {
-         background-color: #0c0026 !important;
-         color: #04dbff !important;
-    } .gnrDvI {
-         background-color: #0c0026 !important;
-         color: #00f4ff !important;
-    }
-    /*==User pop up window (Where you can add friend, whisper, gift the user a sub*/
-    .gubDWX {
-          background-color: #0c0026  !important;
-    } .iAgVdY {
-          background-color: #0c0026  !important;
-    } .ipohvg {
-          background-color: #0c0026  !important;
-    } .hvsHAA {
-         background-color: #0c0026 !important;
-    } .eVRxkm {
-         color: #00daff !important;
-    } .bttv-moderator-card-messages {
-          background-color: #06000b!important;
-    } .hiVgEr {
-         background-color: #0c0026 !important;
-    } .dguXPo {
-         background-color: #0c0026 !important;
-    } .ksWjUf {
-         background-color: #0c0026 !important;
-    } .bttv-moderator-card-user-stats {
-         color: #04dbff !important;
-    } .ckrBdg {
-         color: #04dbff !important;
-    } .lnpmAI {
-         color: #04dbff !important;
-    }
-
-    /*==SCHEDULE==*/
-    /*Top header schedule*/
-    .stream-schedule__header {
-          background-color: #25004d  !important;
-    } .stream-schedule-times {
-          border-bottom: 4px solid #09effa !important;
-    } .stream-schedule-day-name {
-          background-color: #25004d !important;
-    } .clapNL {
-          color: #04dbff !important;
-          background-color: #6f00d9 !important;
-    } .hlDRzI {
-          background-color: #390175 !important;
-    }
-
-    /*CAROUSEL NAV BUTTONS*/
-    .SDimC {
-          background-color: #6f00d9 !important;
-    }
-
-    /*==Search result==*/
-    /*Latest from [Channel name] in Search result page*/
-    .iWnhKa {
-          background-color: #0c0026;
-    }
-
-    /*VIDEOS*/
-    /*VIDEO CHAT*/
-    /*Chat on Videos*/
-    /*Chat on Videos Header*/
-    .tw-root--theme-dark, .video-chat__header {
-          background-color: #0c0026 !important;
-    }
-    /*Chat on Videos Chat*/
-    .dovcjT {
-          background-color: #0c0026 !important;
-    }
-
-    /*Game detail page*/
-    /*'More' pop up details window*/
-    .bxpmMB {
-          background-color: #0c0026 !important;
-    } .DWMXg {
-          background-color: #0c0026 !important;
-    }
-
-    /*Settings -> Profile*/
-    /*Cards*/
-    .GZxlG {
-          background-color: #0c0026 !important;
-    } .kqWtjD {
-          background-color: #0c0026 !important;
-    } .cgUXqp {
-         background-color: #0c0026 !important;
-    }
-    /*Prediction body*/
-    .iXotcI {
-          background-color: #0c0026 !important;
-    } .kMFjgd {
-         background-color: #1d0256 !important;
-    }
-
-    /*Predict Aftermath body*/
-    .cUmtlm {
-         background-color: #0c0026 !important;
-    }
-
-    /*Highlight Message body*/
-    .eosQbY {
-          background-color: #0c0026 !important;
-    } .IfYqL {
-          background-color: #0c0026 !important;
-    }
-
-
-    /*Twitch's emote pop-up window*/
-    .tw-root--theme-dark, .emote-grid-section__header-title {
-          background-color: #4e1dc5 !important;
-    } /*Right nav bar inside twitch's emote pop-up window*/
-    .FYQnE {
-          background-color: #0f0528 !important;
-    } .hsZsWx {
-         background-color: #0f0528 !important;
-    }
-    .CGszq {
-          background-color: #1b0a47 !important;
-    } .bFfkIP {
-         background-color: #1b0a47 !important;
-    } 
-
-    /*username header highlight when about to report user's emotes*/
-    .tw-root--theme-dark .emote-grid-section__balloon-title {
-         background-color: #1b0a47 !important;
-    }
-    /*FrontPage Streamer details in carousel*/
-    .tw-root--theme-dark .carousel-metadata {
+     /*Input window*/
+     .tw-input {
+         border-color: #8c00f9 !important;
+         background-color: #120355 !important;
+         color: #00fff2 !important;
+     }     .tw-input:hover {
+         border-color: #a835ff !important;
+     }     .tw-input:focused {
+         border-color: #982bea !important;
+     }
+     
+     /*Prime Subscription and Loot Reminder*/
+     .extensions-popover-view-layout {
+     background-color: #0c0026 !important;
+     }
+     
+     /*Free Loot button when hovering over stream player*/
+     .dropdown-button--free-stuff:hover {
          background: #0c0026 !important;
-    }
-
-    /*Pointless and ugly fadeout that is ontop of the frontpage streamer details in carousel*/
-    .tw-root--theme-dark .carousel-metadata--fadeout {
+     }
+     
+     /*Overlay on friend's and channels banner*/
+     .fWolaB {
          background: none !important;
-    }
-
-    /*Carousel nav buttons*/
-    .tw-root--theme-dark .carousel-player-nav-arrow__container {
-          background-color: #6f00d9 !important;
-    } .gPpirl {
-          background-color: #6f00d9 !important;
-    } .bOppjh {
-         color: #04dbff !important;
-    }
-    /*Bits pop-up menu in chat input window*/
-    .bfieTc{
+     }
+     
+     /*Channel pop-up card banner overlay*/
+     .lPyMr {
+         background: none !important;
+     }
+     
+     /*Brand icon inner (line 176 for outer colors)*/
+     .eToGCf {
+         fill: #0c0026 !important;;
+     }
+     
+     /*Overlay on paused player*/
+     .player-overlay-background--darkness-5 {
+         background: none !important;
+     }
+     
+     /* NEW BETTER TWITCH TV EXTENSION'S EMOTE-MENU */
+     .bttv-rs-popover-full .bttv-rs-popover-content { /*Background-color for emotes*/
+          background-color: #0e0121 !important;
+     } .bttv-emotes-module__header-UloL0 { /*'Frequently used' and '[Channel-name] Channel' headers*/
+          background-color: #240045 !important; 
+     } .bttv-sidebar-module__sidebar-D8CvQ { /*Left sidebar*/
+          background-color: #0e0121 !important;
+     } .bttv-sidebar-module__active-EqStd { /*Left sidebar active module*/
+          background-color: #41027c !important;
+     } .bttv-rs-input-group.bttv-rs-input-group-inside .bttv-rs-input { /*Input window*/
+          background-color: #120355 !important; 
+     } .bttv-emotes-module__headerText-MJbMy { /*Header text*/
+          color: #00dcff !important;
+     } .bttv-preview-module__preview-_Xc7L { /*Preview text*/
+          color: #00d9fb !important;
+     } svg:not(:root).svg-inline--fa { /*Icon colors*/
+          color: #00d9fb !important;
+     } .bttv-Tip-module__tip-__MRM { /*Protip module*/
+          background-color: #710dd0 !important;
+          color: #00d9fb !important;
+     } .bttv-rs-btn-link {
+          color: #00d9fb !important;
+     } .bttv-rs-nav-subtle.bttv-rs-nav-vertical, .bttv-rs-nav-waterline { /*Scroll color*/
+          background: #19015e !important;
+     } .bttv-rs-btn-subtle:hover { /*Close button on hover*/
+          background: #6800fd !important;
+     } .bttv-Emotes-module__header-WC6mL {
+         background-color: #19015e !important;
+     } .bttv-EmoteMenuPopover-module__popover-iDPef {
+         color: #00dcff !important;
+     } .bttv-Sidebar-module__active-_pCj_ {
+         color: #19015e !important; 
+     } .bttv-Sidebar-module__active-_pCj_ {
+         background-color: #3e01f3 !important;
+     }
+     
+     /* BETTER TWITCH TV EXTENSION'S EXTRA EMOTE BUTTON REPLACER */
+      #emote-menu-button {
+          background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
+          filter: none !important;
+     } .bttv-legacy-button-module__button-i_OhF {
+          background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
+          filter: none !important;
+     } .bttv-LegacyButton-module__button-Pt28_ {
+          background-image: url(https://i.imgur.com/HaDlCS9.png) !important;
+          filter: none !important;
+     }
+     
+     /* 7TV */
+     /*7tv Menu*/
+     /*7tv icon background*/
+     .css-apoynj-MuiFormHelperText-root {
+          color: #00d0ff !important;
+     }
+     /*7tv main background*/
+     .seventv-settings-menu.seventv-sm-backdrop-blur {
+          background-color: #100031bf !important;
+     } 
+     /*7tv Left sidebar*/
+     .seventv-settings-menu .seventv-sm-sidebar {
           background-color: #0c0026 !important;
-    } .dtAtRP {
-          background-color: #0c0026 !important;  
-    } .hCiPqd {
-         background-color: #0c0026 !important;
-    } .dpCNmK {
-         background-color: #0c0026 !important;
-    }
-
-    /*===Hype Train body==*/
-    .ksgxNG {
-          background-color: #0c0026 !important;
-    } .duIQjo {
-         background-color: #0c0026 !important;
-    } .brMHkD {
-         background-color: #0c0026 !important;
-    } .cNoGYg {
-         background-color: #0c0026 !important;
-    } .krZTEQ {
-         background-color: #0c002600 !important;
-         border-left: #0c002600 !important;
-         border-right: #0c002600 !important;
-         border-top: #0c002600 !important;
-         border-bottom: #0c002600 !important;
-    }
-
-    /*Stream interact */
-    .emote-grid-section__header-title 
-    {
-     background: none !important;
-    }
-    .extensions-dock__layout {
+     }
+     /*7tv top header*/
+     .seventv-settings-menu .seventv-sm-content .seventv-sm-heading {
+          background-color: #0c004d !important;
+     }
+     /*7tv close button*/
+     .css-7qgdbp-MuiSvgIcon-root {
+          color: #00f4ff !important;
+     }
+     
+     
+     /*---------------------------------------------------------------------------*/
+     /*Dark Mode*/
+     .tw-root--theme-dark {
+         /*Top Header/Nav-bar*/
+          --color-background-base: #0c0026 !important;
+         /*Left-Expandable-sidebar*/
+          --color-background-alt: #0c0026 !important;
+         /*Base Text (Covers things such as: 'Carousel Nav-Arrow colow, Log in text, Magnifyer icon,
+         'More' button, Prime Loot icon, 'Expand' icon on left side-bar, Top-right profile icon, 
+         Dropdown-menu where 'Language', 'Dark Theme',   'Cookie Preferences', and 'Log In' is located*/
+         --color-text-base: #02e8ff;
+         /*Alternative text (Covers things such as: Streaming Titles, Left-Sidebar channel names and viewer count*/
+         --color-text-alt: #02e8ff;
+         /*Second Alternative text (Covers things such as: Channel Names and Current game on Channel cards found on the mainpage, Current games on Left-sidebar, Viewer count on Streaming Category Cards on mainpage*/
+         --color-text-alt-2: #af02ff;
+         /*Primary Button text Covers for example: 'Sign Up' button*/   
+         --color-text-button-primary: #02fffe;
+         /*Button text color covers for exambple 'Show more [Down Arrow]' on the frontpage'*/
+         --color-text-button-text: #02fffe;
+         /*Input Window Background*/
+         --color-background-input: #120355;
+         /*Input Window Background on-focus*/
+         --color-background-input-focus: #17046b;
+         /*Color Background Overlay Covers things such as: Viewer count background color on stream cards on front-page, and Carousel shadow on previous and up-next channel*/
+         --color-background-overlay: #2c006652;
+         /*Primary Button background Covers things such as: 'Sign Up'*/
+         --color-background-button-primary-default: #7a00ff !important;
+         --color-background-button-primary-hover: #6800d9 !important; /*On hover*/
+         /*Button background Covers things such as: 'Profile', 'More', 'Prime Loot', 'Show More [Down Arrow]', Navigation-arrows for carousel*/
+         --color-background-button-text-default: #7a00ff00 !important;
+         --color-background-button-text-hover: #6200d92b !important; /*On hover*/
+         --color-background-button-text-active: #6200d945 !important; /*On click*/
+         /*Accent Background covers things such as: 'Join the Twitch Community! bottom banner' if logged out, and 'Games', 'IRL', 'MUSIC', 'Esports' Cards on frontpage*/
+         --color-background-accent: #7a00ff;
+         --color-background-accent-alt: #6300f9;
+         --color-background-accent-alt-2: #470f9b;
+         /*Button overlay on player*/
+         --color-text-button-overlay: #02fffe;
+         --color-text-button-overlay-hover: #00fffe; /*On hover*/
+         --color-text-button-overlay-focus: #02fffe; 
+         --color-text-button-overlay-active: #00e5ff; /*On click*/
+         /*Overlay text covers things such as: 'Games', 'IRL', 'Music', 'Esports', Play button in the middle of the player, Viewer count on stream cards, 'LIVE' text*/
+         --color-text-overlay: #02fffe !important;
+         /*LIVE background*/
+         --color-fill-live: #7a00ff !important;
+         /*Link text covers things such as Channel name and current game on Carousel channel card*/
+         --color-text-link: #a200ff;
+         --color-text-link-hover: #70f; /*On hover*/
+         --color-text-link-active: #4b00a0; /*On click*/
+         --color-text-link-focus: #02fffe;
+         --color-text-link-visited: #24d3d2;
+         /*Button overlay background covers things such as 'Sign Up' button ontop of the 'Join the twitch community!' banner*/
+         --color-background-button-overlay-primary-default: #02fffe;
+         --color-background-button-overlay-primary-hover: #00d7d6;
+         --color-background-button-overlay-primary-active: #14e2e1;
+         --color-text-button-overlay-primary: #90f !important; /*Text for previous button code*/
+         /*Input window's border (Does the exact thing as in '.tw-input' on line 53*/
+         --color-border-input: (--color-opac-w-4) !important;
+         --color-opac-w-4: #8c00f9 !important;
+         --color-border-input-focus: #982bea !important;
+         /*Input text*/
+         --color-text-input: #02eae9 !important;
+         /*Input text placeholder*/
+         --color-text-input-placeholder: #00f7f68f !important;
+         /*Toggle button border when checked*/
+         --color-border-toggle-checked: #02fffe !important;
+         /*Toggle button background when checked*/
+         --color-background-toggle-checked: #3600c4 !important;
+         /**/
+         --color-border-toggle: (--color-opac-b-10) !important;
+         --color-opac-b-10: #02fffe !important;
+         /*Toggle button background when unchecked*/
+         --color-background-toggle: #3600c4 !important;
+         /*Toggle button dot when checked*/
+         --color-background-toggle-handle-checked: #02fffe!important;
+         /*Body Background (Visit a channel to see what it does)*/
+         --color-background-body: #0e0121 !important;
+         /*Base border color covers things such as border around chat and leaderboard above chat*/
+         --color-border-base: #02fffe2b !important;
+         /*Emote pop-up window right sidebar*/
+         --color-background-alt-2: #0c0026 !important;
+         /*Live viewercount text */
+         --color-text-live: #f08 !important;
+         --color-text-accessible-red: #f08 !important;
+         /*'Friends' and 'Followed' buttons for friends and channels*/
+         --color-background-button-status: #00fffe !important;
+         /*Brand icon outer (line 84 for inner colors)*/
+         --color-fill-brand: #00fffe !important;
+             
+ 
+     }
+ 
+     /*Dark Crousel Channel-Info Card*/
+     .tw-root--theme-dark .carousel-metadata {
+         background: #0c0026 !important;
+     }
+     
+     /*Fadeout ontop of Channel-Info Card*/
+     .tw-root--theme-dark .carousel-metadata--fadeout {
          background: none !important;
-    } .tw-root--theme-dark, .video-chat__header {
-         background: none !important;
-    }
-
-    /*Twitch Whisper header*/
-    .tw-root--theme-dark .thread-header__title-bar-container {
-         background: #25004d !important;
-    } .tw-root--theme-dark .thread-header__title-bar-container--focused {
-         background-color: #25004d !important;
-    } .tw-root--theme-dark .thread-header__click-area:focus .thread-header__title-bar-container {
-         background: #25004d !important;
-    }
-
-    /*Whisper body*/
-    .bxKxLH {
-         background-color: #0c0026 !important;
-    }
-
-    /*'Please don't share password or personal information' text*/
-    .dSWgRY {
-         color: #1288dc !important;
-    } .cUOTGn {
-         color: #1288dc !important;
-    }
-
-    /*Timestamp in whisper chat*/
-    .gndhOM {
-         color: #09effa !important;
-    } .kHcHKL {
-          color: #09effa !important;
-    }
-
-    /*Whisper dropdown user highlight*/
-    .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .whispers-list-item:hover {
-         background-color: #160146 !important;
-    }
-
-    /*Sub anniversary header*/
-    .hBhqbb {
-         background-color: #0c0026 !important;
-    }
-
-    /*Gift to community wrapper*/
-    .eXMndr {
-         background-color: #0f004d !important;
-    }
-    /*Buttons within Gift to community wrapper*/
-    .fWCiFE {
-         background-color: #7003ff;
-    }
-    /*Gift to community wraper text color*/
-    .ljmcNG {
-     color: #00daff !important;
-    } .eXTUzl {
-         color: #00daff !important;
-    } .jQSAXF {
-          color: #00daff !important;
-    } .fpkNHz {
-          color: #00daff !important;
-    } .VUIXE {
-          color: #00daff !important;
-    } .dVmHJR {
-          color: #ffffff !important;
-    } .epwTZM {
-          color: #00daff !important;
-    } .chZay {
-          color: #00daff !important;
-    } 
-    /*Gift to Community Tier 2 and Tier 2 Example message color*/
-    .kLsjsF {
-         background-color: #110169 !important;
-    } .fAskUL {
-         background-color: #3302f5 !important;
-    }
-
-    /*Sub Gifter progression bar within Gift to community wrapper*/
-    .jyhETi {
-          background: #013e4233 !important;
-    }
-
-
-    /*7TV*/
-    /*7tv background color and text color*/
-    .seventv-emote-menu .seventv-emote-menu-scrollable {
-          background-color: #110046 !important;
-          color: #00daff !important;
-    } .MuiButtonBase-root {
-          background-color: #11016a !important;
-    } .dXWCyY.selected {
-         border-bottom: #00daff;
-    }
-
-    /*Chat Identity*/
-    /*Identity preview*/
-    .hjDQDp {
-         background-color: #06000b !important;
-    } .kZAhUe {
-         color: #00daff !important;
-         background-color: #110035 !important;
-    }
-
-    /*Animated emotes message*/
-    .jpEGpg {
-         color: #00daff !important;
-    } .hBxyLz {
-         background-color: #460cf7 !important;
-    } .FYQnE {
-         background-color: #0c0026 !important;
-    } .heaSCI {
-          background-color: #2a00ac !important;
-    }
-
-    /*News pop-ups  on channels*/
-    .jpZWRE {
-          background-color: #17043e !important;
-    } .cmkXFa {
-          background-color: #6000ee !important;
-    }
-
-    /*Previous messagtes mod version*/
-    .bQueVj {
-         background-color: #06000b;
-    }
-
-    /*New messages line*/
-    .live-message-separator-line__hr {
-     border-top:var(--border-width-default) solid #0bc7ff!important;
-    } .euvEeP {
-          color: #0bc7ff !important;
-    }
-
-    /*Subscribed with prime user notification in chat*/
-    .eVlETT {
-     background-color: #1f0356 !important;
-    }
-    /*Channel points pop-up window*/
-    .eEeQOt {
-         background-color: #0c0026 !important;
-         color: #0bc7ff !important;
-    } .gtxFEb {
-         background-color: #0c0026 !important;
-         color: #0bc7ff !important;
-    } .egyxwW {
-         background-color: #2a0085 !important;
-          color: #0bc7ff !important;
-    }
-    /*'HAPPENING NOW' Dropdown button*/
-    .eQCLrU {
-         background-color: #0c0026 !important;
-    }
-    .kjAfwK {
-         background-color: #12003b !important;
-    } .jMBZbS {
-         color: #00daff !important;
-    } 
-    /*Chapters count found on for example: Recen't broadcasts*/
-    .jqJaOh {
-         color: #04dbff !important;
+     }
+     
+     /*Dark Carousel Navigation Arrows*/
+     .tw-root--theme-dark .carousel-player-nav-arrow__container {
          background-color: #6f00d9 !important;
-    }
-    /*Filter by button*/
-    .eKxqcH {
-         border-color: #ffffff00 !important;
-         background-color: #7100db !important;
-    }
-    /*View All, Play All buttons*/
-    .jDiFXV {
-         color: #04dbff !important;
-    }
-    /*'Sign up to exeprience the best of' card on left navigator*/
-    .MbISN {
-         background-color: #0e0121 !important;
-    }
+     }
+     
+     /*Dark Navigation links Covers for example: 'Browse' located on top header*/
+     .tw-root--theme-dark .navigation-link {
+         color: #02fffe !important;
+     }     .tw-root--theme-dark .navigation-link:hover {
+         color: #00eceb !important;
+     }
+     
+     /*Dark Scrollbar*/
+     .tw-root--theme-dark .scrollable-area .simplebar-track .simplebar-scrollbar {
+         background: #02fffe !important;
+     }
+     
+     /*Dark Chat room base*/
+     .tw-root--theme-dark .chat-room {
+         background: #0c0026 !important;
+     }
+     
+     /*Dark BTTV Split chat background*/
+     .tw-root--theme-dark .chat-line__message.bttv-split-chat-alt-bg, .tw-root--theme-dark .vod-message.bttv-split-chat-alt-bg {
+         background-color: #18004d !important;
+     }
+     
+     /*Dark Emote pop-up window channel header*/
+     .tw-root--theme-dark .emote-grid-section__header-title {
+         background-color: #200066 !important;
+     }
+     
+     /*Dark Emote pop-up window channel header focused*/
+     .tw-root--theme-dark .emote-grid-section__balloon-title {
+         background-color: #3f009a !important;
+     } 
+     
+     /*Dark Left sidebar channels and friends, on hover*/
+     .tw-root--theme-dark .side-nav-card__link:hover {
+         background-color: #200066 !important;
+     }
+     
+     /*Dark Hypetrain Train*/
+     .hype-train-approaching-view__checkboxes-dark {
+         background-color: #7a00ff !important;
+         color: #0aeffe !important;
+     } 
+     
+     /*Dark Logged in Left sidebar background*/
+     .tw-root--theme-dark .side-nav__overlay-wrapper {
+         background-color: #0c0026 !important;
+     }
+     
+     /*Dark Whisper header*/
+     .tw-root--theme-dark .thread-header__title-bar-container {
+         background: #260077 !important;
+         box-shadow: none !important;
+     }
+     
+     /*Dark Whispers drowndown window channels on hover*/
+     .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .whispers-list-item:hover {
+         background-color: #090017 !important;
+     }
+     
+     /*Dark Whispers drowndown window channels Slide delete button on hover*/
+     .tw-root--theme-dark .whispers-list-item--selected .whispers-list-item__archive, .tw-root--theme-dark .whispers-list-item--selected .whispers-list-item__muted-icon, .tw-root--theme-dark .whispers-list-item--selected .whispers-list-item__unread-icon, .tw-root--theme-dark .whispers-list-item:hover .whispers-list-item__archive, .tw-root--theme-dark .whispers-list-item:hover .whispers-list-item__muted-icon, .tw-root--theme-dark .whispers-list-item:hover .whispers-list-item__unread-icon {
+     background-color: #0d0020 !important;
+     } .tw-root--theme-dark .whispers-list-item__archive {
+             background-color: #0d0020 !important;
+     }
+     
+     /*Dark Trashbin icon background inside the previous code*/
+     .tw-root--theme-dark .whispers-list-item--selected .whispers-list-item__archive-button, .tw-root--theme-dark .whispers-list-item:hover .whispers-list-item__archive-button {
+         background-color: #090017 !important;
+     }
+     
+     /*Dark Subscribe pop-up window text*/
+     .tw-root--theme-dark .modal__content {
+         color: #02fffe !important; 
+     }
+     
+     /*Dark 'Users in chat' panel*/
+     .tw-root--theme-dark .chat-viewers__pane {
+         background: #0c0026 !important;
+         color: #02e8ff !important;
+     }
+     
+     /*Dark 'Users in chat' channel names*/
+     .tw-root--theme-dark .chat-viewers-list__button {
+         color: #02fffe!important;
+     }
+     
+     /*---------------------------------------------------------------------------*/
+     /*Light Mode*/
+     .tw-root--theme-light {
+         /*Top Header/Nav-bar*/
+          --color-background-base: #0c0026 !important;
+         /*Left-Expandable-sidebar*/
+          --color-background-alt: #0c0026 !important;
+         /*Base Text (Covers things such as: 'Carousel Nav-Arrow colow, Log in text, Magnifyer icon,
+         'More' button, Prime Loot icon, 'Expand' icon on left side-bar, Top-right profile icon, 
+         Dropdown-menu where 'Language', 'Dark Theme',   'Cookie Preferences', and 'Log In' is located*/
+         --color-text-base: #02e8ff !important;
+         /*Alternative text (Covers things such as: Streaming Titles, Left-Sidebar channel names and viewer count*/
+         --color-text-alt: #02e8ff !important;
+         /*Second Alternative text (Covers things such as: Channel Names and Current game on Channel cards found on the mainpage, Current games on Left-sidebar, Viewer count on Streaming Category Cards on mainpage*/
+         --color-text-alt-2: #02e8ff !important;
+         /*Primary Button text Covers for example: 'Sign Up' button*/   
+         --color-text-button-primary: #02fffe !important;
+         /*Button text color covers for exambple 'Show more [Down Arrow]' on the frontpage'*/
+         --color-text-button-text: #02fffe !important;
+         /*Input Window Background*/
+         --color-background-input: #120355 !important;
+         /*Input Window Background on-focus*/
+         --color-background-input-focus: #17046b !important;
+         /*Color Background Overlay Covers things such as: Viewer count background color on stream cards on front-page, and Carousel shadow on previous and up-next channel*/
+         --color-background-overlay: #2c006699 !important;
+         /*Primary Button background Covers things such as: 'Sign Up'*/
+         --color-background-button-primary-default: #7a00ff !important;
+         --color-background-button-primary-hover: #6800d9 !important; /*On hover*/
+         /*Button background Covers things such as: 'Profile', 'More', 'Prime Loot', 'Show More [Down Arrow]', Navigation-arrows for carousel*/
+         --color-background-button-text-default: #7a00ff00 !important;
+         --color-background-button-text-hover: #6200d92b !important; /*On hover*/
+         --color-background-button-text-active: #6200d945 !important; /*On click*/
+         /*Accent Background covers things such as: 'Join the Twitch Community! bottom banner' if logged out, and 'Games', 'IRL', 'MUSIC', 'Esports' Cards on frontpage*/
+         --color-background-accent: #7a00ff !important;
+         --color-background-accent-alt: #6300f9 !important;
+         --color-background-accent-alt-2: #470f9b !important;
+         /*Button overlay on player*/
+         --color-text-button-overlay: #02fffe !important;
+         --color-text-button-overlay-hover: #00fffe !important; /*On hover*/
+         --color-text-button-overlay-focus: #02fffe !important; 
+         --color-text-button-overlay-active: #00e5ff !important; /*On click*/
+         /*Overlay text covers things such as: 'Games', 'IRL', 'Music', 'Esports', Play button in the middle of the player, Viewer count on stream cards, 'LIVE' text*/
+         --color-text-overlay: #02fffe !important;
+         /*LIVE background*/
+         --color-fill-live: #7a00ff !important;
+         /*Link text covers things such as Channel name and current game on Carousel channel card*/
+         --color-text-link: #a200ff !important;
+         --color-text-link-hover: #70f !important; /*On hover*/
+         --color-text-link-active: #4b00a0 !important; /*On click*/
+         --color-text-link-focus: #02fffe !important;
+         --color-text-link-visited: #24d3d2 !important;
+         /*Button overlay background covers things such as 'Sign Up' button ontop of the 'Join the twitch community!' banner*/
+         --color-background-button-overlay-primary-default: #02fffe;
+         --color-background-button-overlay-primary-hover: #00d7d6;
+         --color-background-button-overlay-primary-active: #14e2e1;
+         --color-text-button-overlay-primary: #90f !important; /*Text for previous button code*/
+         /*Input window's border (Does the exact thing as in '.tw-input' on line 53*/
+         --color-border-input: (--color-opac-w-4) !important;
+         --color-opac-w-4: #8c00f9 !important;
+         --color-border-input-focus: #982bea !important;
+         /*Input text*/
+         --color-text-input: #02eae9 !important;
+         /*Input text placeholder*/
+         --color-text-input-placeholder: #00f7f68f !important;
+         /*Toggle button border when checked*/
+         --color-border-toggle-checked: #02fffe !important;
+         /*Toggle button background when checked*/
+         --color-background-toggle-checked: #3600c4 !important;
+         /*Toggle button border when unchecked*/
+         --color-border-toggle: (--color-opac-b-10) !important;
+         --color-opac-b-10: #02fffe !important;
+         /*Toggle button background when unchecked*/
+         --color-background-toggle: #3600c4 !important;
+         /*Toggle button dot when unchecked*/
+         --color-background-toggle-handle: #02fffe!important;
+         /*Body Background (Visit a channel to see what it does)*/
+         --color-background-body: #0e0121 !important;
+         /*Base border color covers things such as border around chat and leaderboard above chat*/
+         --color-border-base: #02fffe2b !important;
+         /*Emote pop-up window right sidebar*/
+         --color-background-alt-2: #0c0026 !important;
+         /*Live viewercount text */
+         --color-text-live: #f08 !important;
+         --color-text-accessible-red: #f08 !important;
+         /*'Friends' and 'Followed' buttons for friends and channels*/
+         --color-background-button-status: #00fffe !important;
+         /*Brand icon outer (line 84 for inner colors)*/
+         --color-fill-brand: #00fffe !important;
+     }
+     
+     /*Light Crousel Channel-Info Card*/
+     .tw-root--theme-light .carousel-metadata {
+         background: #0c0026 !important;
+     }
+ 
+     /*Fadeout ontop of Channel-Info Card*/
+     .tw-root--theme-light .carousel-metadata--fadeout {
+         background: none !important;
+     }
+     
+     /*Light Carousel Navigation Arrows*/
+     .tw-root--theme-light .carousel-player-nav-arrow__container {
+         background-color: #6f00d9 !important;
+     }
+ 
+     /*Light Navigation links Covers for example: 'Browse' located on top header*/
+     .tw-root--theme-light .navigation-link {
+         color: #02fffe !important;
+     }     .tw-root--theme-light .navigation-link:hover {
+         color: #00eceb !important;
+     }
+ 
+     /*Light Scrollbar*/
+     .tw-root--theme-light .scrollable-area .simplebar-track .simplebar-scrollbar {
+         background: #02fffe !important;
+     }
+     
+     /*Light Chat room base*/
+     .tw-root--theme-light .chat-room {
+         background: #0c0026 !important;
+     }
+ 
+     /*Light BTTV Split chat background*/
+     .tw-root--theme-light .chat-line__message.bttv-split-chat-alt-bg, .tw-root--theme-light .vod-message.bttv-split-chat-alt-bg {
+         background-color: #18004d !important;
+     }
+ 
+     /*Light Emote pop-up window channel header*/
+     .tw-root--theme-light .emote-grid-section__header-title {
+         background-color: #200066 !important;
+     }
+ 
+     /*Light Emote pop-up window channel header focused*/
+     .tw-root--theme-light .emote-grid-section__balloon-title {
+         background-color: #3f009a;
+     } 
+ 
+     /*Light Left sidebar channels and friends, on hover*/
+     .tw-root--theme-light .side-nav-card__link:hover {
+         background-color: #200066 !important;
+     }
+ 
+     /*Light Hypetrain Train*/
+     .hype-train-approaching-view__checkboxes-light {
+         background-color: #7a00ff !important;
+         color: #0aeffe !important;
+     }
+ 
+     /*LightLogged in Left sidebar background*/
+     .tw-root--theme-light .side-nav__overlay-wrapper {
+          background-color: #0c0026 !important;
+     }
+ 
+     /*Light Whisper header*/
+     .tw-root--theme-light .thread-header__title-bar-container {
+         background: #260077 !important;
+         box-shadow: none !important;
+     }
+ 
+     
+     /*Light Whispers drowndown window channels on hover*/
+     .tw-root--theme-light .whispers-list-item--selected, .tw-root--theme-light .whispers-list-item:hover {
+         background-color: #090017 !important;
+     }
+     
+     /*Light Whispers drowndown window channels Slide delete button on hover*/
+     .tw-root--theme-light .whispers-list-item--selected .whispers-list-item__archive, .tw-root--theme-light .whispers-list-item--selected .whispers-list-item__muted-icon, .tw-root--theme-light .whispers-list-item--selected .whispers-list-item__unread-icon, .tw-root--theme-light .whispers-list-item:hover .whispers-list-item__archive, .tw-root--theme-light .whispers-list-item:hover .whispers-list-item__muted-icon, .tw-root--theme-light .whispers-list-item:hover .whispers-list-item__unread-icon {
+     background-color: #0d0020 !important;
+     } .tw-root--theme-light .whispers-list-item__archive {
+             background-color: #0d0020 !important;
+     }
+ 
+     /*Light Trashbin icon background inside the previous code*/
+     .tw-root--theme-light .whispers-list-item--selected .whispers-list-item__archive-button, .tw-root--theme-light .whispers-list-item:hover .whispers-list-item__archive-button {
+         background-color: #090017 !important;
+     }
+ 
+     /*Light Subscribe pop-up window text*/
+     .tw-root--theme-light .modal__content {
+         color: #02fffe !important; 
+     }
+ 
+     /*light 'Users in chat' panel*/
+     .tw-root--theme-light .chat-viewers__pane {
+         background: #0c0026 !important;
+         color: #02e8ff !important;
+     }
+ 
+     /*Light 'Users in chat' channel names*/
+     .tw-root--theme-light .chat-viewers-list__button {
+         color: #02fffe !important;
+     }
+ 
 
-    /*Badges background on usercards*/
-    .dqxEWE {
-         background-color: #0c0026 !important;
-    } 
-    /*Background color for the element between Badges and 'Chat Messages'*/
-    .knHLPh { /*top*/
-         background-color: #0c0026 !important;
-    }
-    .dEwPJi { /*middle*/
-         background-color: #0c0026 !important;
-    } 
-    .gbOHXl { /*bottom*/
-         background-color: #0c0026 !important;
-    }
-    /*FrankerFaceZ(FFZ) begins*/
-    /*FFZ Header and logo*/
-    .ffz-main-menu>header {
-         color: #09effa !important;
-    }
-    /*FFZ left navbar*/
-    .tw-c-background-alt-2 {
-         background-color: #0c0026 !important;
-    }
-    /*FFZ Profile button*/
-    .ffz--widget:last-child {
-         background-color: #8500ff !important;
-    }
-    /*FFZ Appearance >> Layout divs explanation text*/
-    .tw-c-text-alt-2 {
-         color: #00daff !important;
-    } .ffz--widget:last-child {
-         background-color: #0d012a !important;
-    }
-    /*FZZ Search Settings input window*/
-    .ffz-main-menu>header input, .ffz-main-menu>header button {
-         background-color: #080033 !important;
-    } .ffz--widget input, .ffz--widget select {
-         background-color: #080033 !important;
-    } 
-    /*FFZ Chat line message background*/
-    .chat-line__message {
-         background-color: #050015 !important;
-    } .guFQFl {
-         background-color: #050015 !important;
-    } .iTySPm {
-         background-color: #050015 !important;
-    }
-
-    /*FFZ Left expandable menu with followed channels, friends etc.*/
-    .tw-root--theme-dark .whispers-list-item__archive, .tw-root--theme-dark .whispers-list-item .whispers-list-item__archive-button, .tw-root--theme-dark .top-stats-tab:hover, .tw-root--theme-dark .whispers-list-item--selected, .tw-root--theme-dark .side-nav__overlay-wrapper, .tw-root--theme-dark .thread-header__title-bar-container, html .whispers-list-item__archive, html .whispers-list-item .whispers-list-item__archive-button, html .top-stats-tab:hover, html .whispers-list-item--selected, html .side-nav__overlay-wrapper, html .thread-header__title-bar-container {
-         background-color: #0c0026 !important;
-    } 
-    /*FFZ Switch to Non-mod settings in the pop-up window for chat settings.*/
-    .ihllwC {
-         background-color: #0c0026 !important;
-    }
-
-    /*FFZ Notifcation*/
-    .tw-pill {
-         background-color: #8a10fe !important;
-         color: #00f4ff !important;
-    }
-
-    /*Connecting to Chat*/
-    .dDeHGy {
-         background-color: #0c0026 !important;
-         color: #00f4ff !important;
-    }
-
-    /*Messages, Timeouts, Bans. Mod Comments buttons/counters*/
-    .lgxKcq{
-         background-color: #0c0026 !important;
-         color: #00f4ff !important;
-    }
-
-    /*Share sub anniversary in chat*/
-    .gLfTKe{
-         background-color: #0c0026 !important;
-    } .ccgiex { /*around the chat color while sharing sub anniversary*/
-         background-color: #0c0026 !important;
-    }
-
-    /*==7TV==*/
-    /*7tv Menu*/
-    /*7tv icon background*/
-    .css-apoynj-MuiFormHelperText-root {
-         color: #00d0ff !important;
-    }
-    /*7tv main background*/
-    .seventv-settings-menu.seventv-sm-backdrop-blur {
-         background-color: #100031bf !important;
-    } 
-    /*7tv Left sidebar*/
-    .seventv-settings-menu .seventv-sm-sidebar {
-         background-color: #0c0026 !important;
-    }
-    /*7tv top header*/
-    .seventv-settings-menu .seventv-sm-content .seventv-sm-heading {
-         background-color: #0c004d !important;
-    }
-    /*7tv close button*/
-    .css-7qgdbp-MuiSvgIcon-root {
-         color: #00f4ff !important;
-    }
-
-    /*@ing unfold navigation menu*/
-    .eIEdl {
-         background: #0e0121 !important;
-         color: #00f4ff !important;
-    }
-
-    /*COLOR PALETTE*/
-    .colorpallete {
-     color: #0c0026
-            #00f4ff
-            #7100db
-            #f66bff
-            #1a0152
-    }
-    
-    }
+}
