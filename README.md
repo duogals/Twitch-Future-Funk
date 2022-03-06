@@ -14,7 +14,7 @@ Install the [Stylus extension](https://add0n.com/stylus.html) to install the Use
 * You can also find this UserCCS [here](https://userstyles.org/styles/189576/twitch-future-funk), userstyles.org has in the recent times been pretty fast and responding.
 
 ## Preview
-### Front Pape
+### Front Page
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_FrontPage.jpg)
 
 ### Channel Home Page

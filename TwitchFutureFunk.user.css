@@ -2,7 +2,7 @@
     /* ==UserStyle==
      @name			Twitch Future Funk
      @namespace		duogals
-     @version		     2.0.1
+     @version		     2.0.2
      @description	     A future funk themed style for Twitch.tv.
      @author			duogals/Shadder
      @license		     CC0 - Public Domain
@@ -10,7 +10,7 @@
      @supportURL		https://github.com/duogals/Twitch-Future-Funk/issues
      @updateURL		https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css
      @Creation-Date      2020-09-18
-     @Last-Updated       2021-10-08
+     @Last-Updated       2022-03-06
     ==/UserStyle== */
     
     /*Body*/
@@ -72,7 +72,7 @@
      }
      
      /*Brand icon inner (line 176 for outer colors)*/
-     .eToGCf {
+     .eToGCf, .LUGKN {
          fill: #0c0026 !important;;
      }
      
@@ -80,6 +80,11 @@
      .player-overlay-background--darkness-5 {
          background: none !important;
      }
+    
+    /*'AUTOHOST'*/
+    .channel-status-info--hosting {
+        background: #3400d4 !important;
+    }
      
      /* NEW BETTER TWITCH TV EXTENSION'S EMOTE-MENU */
      .bttv-rs-popover-full .bttv-rs-popover-content { /*Background-color for emotes*/
@@ -241,7 +246,8 @@
          --color-background-button-status: #00fffe !important;
          /*Brand icon outer (line 84 for inner colors)*/
          --color-fill-brand: #00fffe !important;
-             
+         /*Background color used for buttons such as 'Gift a Sub', 'Get Bits', the notification bell, Followed/unfollowed button etc*/
+         --color-background-button-secondary-default: #7a00ff !important;
  
      }
  
@@ -354,6 +360,11 @@
           73deg,#0e0e10,rgb(0 134 212));
           content: "";
      }
+    
+    /*Dark Input Placeholder*/
+    .tw-root--theme-dark .chat-wysiwyg-input__placeholder {
+        color: #00f7f68f !important
+    }
      
      /*---------------------------------------------------------------------------*/
      /*Light Mode*/
@@ -443,6 +454,10 @@
          --color-background-button-status: #00fffe !important;
          /*Brand icon outer (line 84 for inner colors)*/
          --color-fill-brand: #00fffe !important;
+         /*Follow/Unfollow button and Notification button background color*/
+         --color-background-button-secondary-default:#7a00ff !important;
+         /*'Sort By' text on Game Page*/
+         --color-text-label: #c900ff !important;
      }
      
      /*Light Crousel Channel-Info Card*/
@@ -555,6 +570,11 @@
           73deg,#0e0e10,rgb(0 134 212));
           content: "";
      }
+    
+    /*Light Input Placeholder*/
+    .tw-root--theme-light .chat-wysiwyg-input__placeholder {
+        color: #00f7f68f !important
+    }
  
 
 }
