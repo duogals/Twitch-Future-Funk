@@ -215,7 +215,7 @@
          --color-background-button-overlay-primary-active: #14e2e1;
          --color-text-button-overlay-primary: #90f !important; /*Text for previous button code*/
          /*Input window's border (Does the exact thing as in '.tw-input' on line 53*/
-         --color-border-input: (--color-opac-w-4) !important;
+         --color-border-input: --color-opac-w-4 !important;
          --color-opac-w-4: #8c00f9 !important;
          --color-border-input-focus: #982bea !important;
          /*Input text*/
@@ -227,7 +227,7 @@
          /*Toggle button background when checked*/
          --color-background-toggle-checked: #3600c4 !important;
          /**/
-         --color-border-toggle: (--color-opac-b-10) !important;
+         --color-border-toggle: --color-opac-b-10 !important;
          --color-opac-b-10: #02fffe !important;
          /*Toggle button background when unchecked*/
          --color-background-toggle: #3600c4 !important;
@@ -423,7 +423,7 @@
          --color-background-button-overlay-primary-active: #14e2e1;
          --color-text-button-overlay-primary: #90f !important; /*Text for previous button code*/
          /*Input window's border (Does the exact thing as in '.tw-input' on line 53*/
-         --color-border-input: (--color-opac-w-4) !important;
+         --color-border-input: --color-opac-w-4 !important;
          --color-opac-w-4: #8c00f9 !important;
          --color-border-input-focus: #982bea !important;
          /*Input text*/
@@ -435,7 +435,7 @@
          /*Toggle button background when checked*/
          --color-background-toggle-checked: #3600c4 !important;
          /*Toggle button border when unchecked*/
-         --color-border-toggle: (--color-opac-b-10) !important;
+         --color-border-toggle: --color-opac-b-10 !important;
          --color-opac-b-10: #02fffe !important;
          /*Toggle button background when unchecked*/
          --color-background-toggle: #3600c4 !important;
