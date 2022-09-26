@@ -11,7 +11,7 @@ Works also with FrankerFaceZ and BTTV extensions!
 Install the [Stylus extension](https://add0n.com/stylus.html) to install the UserCSS.
 
 * Click the 'Install directly with Stylus' button or [click here.](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/TwitchFutureFunk.user.css).
-* You can also find this UserCCS [here](https://userstyles.org/styles/189576/twitch-future-funk), userstyles.org has in the recent times been pretty fast and responding.
+* You can also find this UserCCS [here](https://userstyles.world/style/6683/twitch-future-funk), a better alternative to 'userstyles.org'
 
 ## Preview
 ### Front Page
