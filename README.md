@@ -3,7 +3,7 @@
 
 Future Funk css style for Twitch.tv.
 
-Gives Twitch.tv a Future Funk Theme. Finally works both logged-in and logged-out, and also with the Dark-theme enabled and disabled. Code has been completely overhauled and fixed. The code should no longer break as frequently as it did with every Twitch update.
+Gives Twitch.tv a Future Funk Theme.
 
 Works also with FrankerFaceZ and BTTV extensions!
 
