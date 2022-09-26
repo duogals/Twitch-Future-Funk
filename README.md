@@ -24,10 +24,10 @@ Install the [Stylus extension](https://add0n.com/stylus.html) to install the Use
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Channel_StreamPage.jpg)
 
 ### Game Page
-![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Game_Page.png)
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Game_Page.jpg)
 
 ### Browse Page
 ![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_BrowsePage.jpg)
 
 ### Settings Page
-![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Settings_Page.png)
+![](https://raw.githubusercontent.com/duogals/Twitch-Future-Funk/main/images/screenshots/Twitch_Settings_Page.jpg)
